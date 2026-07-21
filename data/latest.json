@@ -1,29 +1,29 @@
 {
- "generated": "2026-07-22 01:15",
+ "generated": "2026-07-22 01:30",
  "ratio": 10,
  "current": {
   "label": "ADR 장중 기준 (한국장 마감) · ⚠️데이터 시차 주의",
-  "oldest_age_str": "9시간 4분 전",
-  "premium_pct": 33.61,
-  "adr_equivalent_krw": 2453011,
+  "oldest_age_str": "9시간 19분 전",
+  "premium_pct": 34.4,
+  "adr_equivalent_krw": 2467654,
   "actual_common_krw": 1836000,
-  "adr_implied_krw_price": 2453011,
-  "kr_equivalent_adr_usd": 124.1,
-  "fair_common_from_adr_krw": 2453011,
-  "fair_adr_from_common_usd": 124.1,
+  "adr_implied_krw_price": 2467654,
+  "kr_equivalent_adr_usd": 124.11,
+  "fair_common_from_adr_krw": 2467654,
+  "fair_adr_from_common_usd": 124.11,
   "meta": {
    "adr": {
-    "price": 165.8,
+    "price": 166.81,
     "kind": "regular_live",
     "currency": "USD",
     "source": "Yahoo Finance",
     "market_state_ko": "정규장",
     "exchange": "NasdaqGS",
     "tz": "America/New_York",
-    "data_epoch": 1784650504,
-    "age_sec": 1,
+    "data_epoch": 1784651406,
+    "age_sec": 0,
     "stale": false,
-    "local_time": "2026-07-21 12:15 ET",
+    "local_time": "2026-07-21 12:30 ET",
     "age_str": "0분 전"
    },
    "common": {
@@ -35,23 +35,23 @@
     "exchange": "KOSPI",
     "tz": "Asia/Seoul",
     "data_epoch": 1784617822,
-    "age_sec": 32683,
+    "age_sec": 33583,
     "stale": true,
     "local_time": "2026-07-21 16:10 KST",
-    "age_str": "9시간 4분 전"
+    "age_str": "9시간 19분 전"
    },
    "fx": {
-    "price": 1479.5,
+    "price": 1479.32,
     "kind": "regular_live",
     "currency": "KRW",
     "source": "Yahoo Finance",
     "market_state_ko": "정규장",
     "exchange": "CCY",
     "tz": "Europe/London",
-    "data_epoch": 1784650499,
-    "age_sec": 6,
+    "data_epoch": 1784651406,
+    "age_sec": 0,
     "stale": false,
-    "local_time": "2026-07-21 17:14 GMT",
+    "local_time": "2026-07-21 17:30 GMT",
     "age_str": "0분 전"
    }
   }
@@ -255,6 +255,10 @@
   [
    "2026-07-21 16:15",
    33.61
+  ],
+  [
+   "2026-07-21 16:30",
+   34.4
   ]
  ],
  "daily": [
