@@ -1,29 +1,29 @@
 {
- "generated": "2026-07-22 01:00",
+ "generated": "2026-07-22 01:15",
  "ratio": 10,
  "current": {
   "label": "ADR 장중 기준 (한국장 마감) · ⚠️데이터 시차 주의",
-  "oldest_age_str": "8시간 49분 전",
-  "premium_pct": 32.93,
-  "adr_equivalent_krw": 2440649,
+  "oldest_age_str": "9시간 4분 전",
+  "premium_pct": 33.61,
+  "adr_equivalent_krw": 2453011,
   "actual_common_krw": 1836000,
-  "adr_implied_krw_price": 2440649,
-  "kr_equivalent_adr_usd": 124.07,
-  "fair_common_from_adr_krw": 2440649,
-  "fair_adr_from_common_usd": 124.07,
+  "adr_implied_krw_price": 2453011,
+  "kr_equivalent_adr_usd": 124.1,
+  "fair_common_from_adr_krw": 2453011,
+  "fair_adr_from_common_usd": 124.1,
   "meta": {
    "adr": {
-    "price": 164.9332,
+    "price": 165.8,
     "kind": "regular_live",
     "currency": "USD",
     "source": "Yahoo Finance",
     "market_state_ko": "정규장",
     "exchange": "NasdaqGS",
     "tz": "America/New_York",
-    "data_epoch": 1784649606,
-    "age_sec": 0,
+    "data_epoch": 1784650504,
+    "age_sec": 1,
     "stale": false,
-    "local_time": "2026-07-21 12:00 ET",
+    "local_time": "2026-07-21 12:15 ET",
     "age_str": "0분 전"
    },
    "common": {
@@ -35,23 +35,23 @@
     "exchange": "KOSPI",
     "tz": "Asia/Seoul",
     "data_epoch": 1784617822,
-    "age_sec": 31784,
+    "age_sec": 32683,
     "stale": true,
     "local_time": "2026-07-21 16:10 KST",
-    "age_str": "8시간 49분 전"
+    "age_str": "9시간 4분 전"
    },
    "fx": {
-    "price": 1479.78,
+    "price": 1479.5,
     "kind": "regular_live",
     "currency": "KRW",
     "source": "Yahoo Finance",
     "market_state_ko": "정규장",
     "exchange": "CCY",
     "tz": "Europe/London",
-    "data_epoch": 1784649607,
-    "age_sec": 0,
+    "data_epoch": 1784650499,
+    "age_sec": 6,
     "stale": false,
-    "local_time": "2026-07-21 17:00 GMT",
+    "local_time": "2026-07-21 17:14 GMT",
     "age_str": "0분 전"
    }
   }
@@ -251,6 +251,10 @@
   [
    "2026-07-21 16:00",
    32.93
+  ],
+  [
+   "2026-07-21 16:15",
+   33.61
   ]
  ],
  "daily": [
