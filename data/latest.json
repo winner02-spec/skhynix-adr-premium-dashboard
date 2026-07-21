@@ -1,29 +1,29 @@
 {
- "generated": "2026-07-21 18:45",
+ "generated": "2026-07-21 19:00",
  "ratio": 10,
  "current": {
   "label": "최신 가용 가격 비교 (시간외 포함) · ⚠️데이터 시차 주의",
-  "oldest_age_str": "2시간 34분 전",
-  "premium_pct": 29.87,
-  "adr_equivalent_krw": 2384346,
+  "oldest_age_str": "2시간 49분 전",
+  "premium_pct": 29.56,
+  "adr_equivalent_krw": 2378789,
   "actual_common_krw": 1836000,
-  "adr_implied_krw_price": 2384346,
-  "kr_equivalent_adr_usd": 124.28,
-  "fair_common_from_adr_krw": 2384346,
-  "fair_adr_from_common_usd": 124.28,
+  "adr_implied_krw_price": 2378789,
+  "kr_equivalent_adr_usd": 124.3,
+  "fair_common_from_adr_krw": 2378789,
+  "fair_adr_from_common_usd": 124.3,
   "meta": {
    "adr": {
-    "price": 161.4,
+    "price": 161.05,
     "kind": "pre",
     "currency": "USD",
     "source": "Yahoo Finance",
     "market_state_ko": "프리마켓",
     "exchange": "NasdaqGS",
     "tz": "America/New_York",
-    "data_epoch": 1784627104,
-    "age_sec": 1,
+    "data_epoch": 1784628001,
+    "age_sec": 4,
     "stale": false,
-    "local_time": "2026-07-21 05:45 ET",
+    "local_time": "2026-07-21 06:00 ET",
     "age_str": "0분 전"
    },
    "common": {
@@ -35,23 +35,23 @@
     "exchange": "KOSPI",
     "tz": "Asia/Seoul",
     "data_epoch": 1784617822,
-    "age_sec": 9283,
+    "age_sec": 10183,
     "stale": true,
     "local_time": "2026-07-21 16:10 KST",
-    "age_str": "2시간 34분 전"
+    "age_str": "2시간 49분 전"
    },
    "fx": {
-    "price": 1477.29,
+    "price": 1477.05,
     "kind": "regular_live",
     "currency": "KRW",
     "source": "Yahoo Finance",
     "market_state_ko": "정규장",
     "exchange": "CCY",
     "tz": "Europe/London",
-    "data_epoch": 1784627101,
-    "age_sec": 4,
+    "data_epoch": 1784627998,
+    "age_sec": 7,
     "stale": false,
-    "local_time": "2026-07-21 10:45 GMT",
+    "local_time": "2026-07-21 10:59 GMT",
     "age_str": "0분 전"
    }
   }
@@ -64,7 +64,7 @@
    "fx_date": "2026-07-20"
   },
   "C": {
-   "premium_pct": 21.49,
+   "premium_pct": 21.61,
    "adr_date": "2026-07-20",
    "common_date": "2026-07-21",
    "fx_date": "2026-07-21"
@@ -153,6 +153,10 @@
   [
    "2026-07-21 09:45",
    29.87
+  ],
+  [
+   "2026-07-21 10:00",
+   29.56
   ]
  ],
  "daily": [
