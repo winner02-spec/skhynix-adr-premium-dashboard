@@ -1,29 +1,29 @@
 {
- "generated": "2026-07-22 02:15",
+ "generated": "2026-07-22 02:30",
  "ratio": 10,
  "current": {
   "label": "ADR 장중 기준 (한국장 마감) · ⚠️데이터 시차 주의",
-  "oldest_age_str": "10시간 4분 전",
-  "premium_pct": 35.55,
-  "adr_equivalent_krw": 2488714,
+  "oldest_age_str": "10시간 19분 전",
+  "premium_pct": 35.7,
+  "adr_equivalent_krw": 2491506,
   "actual_common_krw": 1836000,
-  "adr_implied_krw_price": 2488714,
-  "kr_equivalent_adr_usd": 124.1,
-  "fair_common_from_adr_krw": 2488714,
-  "fair_adr_from_common_usd": 124.1,
+  "adr_implied_krw_price": 2491506,
+  "kr_equivalent_adr_usd": 124.05,
+  "fair_common_from_adr_krw": 2491506,
+  "fair_adr_from_common_usd": 124.05,
   "meta": {
    "adr": {
-    "price": 168.22,
+    "price": 168.345,
     "kind": "regular_live",
     "currency": "USD",
     "source": "Yahoo Finance",
     "market_state_ko": "정규장",
     "exchange": "NasdaqGS",
     "tz": "America/New_York",
-    "data_epoch": 1784654100,
-    "age_sec": 5,
+    "data_epoch": 1784655000,
+    "age_sec": 1,
     "stale": false,
-    "local_time": "2026-07-21 13:15 ET",
+    "local_time": "2026-07-21 13:30 ET",
     "age_str": "0분 전"
    },
    "common": {
@@ -35,23 +35,23 @@
     "exchange": "KOSPI",
     "tz": "Asia/Seoul",
     "data_epoch": 1784617822,
-    "age_sec": 36283,
+    "age_sec": 37179,
     "stale": true,
     "local_time": "2026-07-21 16:10 KST",
-    "age_str": "10시간 4분 전"
+    "age_str": "10시간 19분 전"
    },
    "fx": {
-    "price": 1479.44,
+    "price": 1480.0,
     "kind": "regular_live",
     "currency": "KRW",
     "source": "Yahoo Finance",
     "market_state_ko": "정규장",
     "exchange": "CCY",
     "tz": "Europe/London",
-    "data_epoch": 1784654103,
-    "age_sec": 2,
+    "data_epoch": 1784655002,
+    "age_sec": 0,
     "stale": false,
-    "local_time": "2026-07-21 18:15 GMT",
+    "local_time": "2026-07-21 18:30 GMT",
     "age_str": "0분 전"
    }
   }
@@ -271,6 +271,10 @@
   [
    "2026-07-21 17:15",
    35.55
+  ],
+  [
+   "2026-07-21 17:30",
+   35.7
   ]
  ],
  "daily": [
