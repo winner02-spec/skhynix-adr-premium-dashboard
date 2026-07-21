@@ -1,0 +1,154 @@
+<!doctype html>
+<html lang="ko">
+<head>
+<meta charset="utf-8"/>
+<meta name="viewport" content="width=device-width, initial-scale=1"/>
+<title>SK하이닉스 ADR 프리미엄 대시보드</title>
+<style>
+  :root{ --bg:#f6f7f9; --card:#fff; --ink:#14181f; --muted:#5b6472; --line:#e6e9ef;
+    --prem:#e5484d; --disc:#1f883d; --accent:#3b6ef5; --warn:#c47f00;}
+  @media (prefers-color-scheme:dark){ :root{ --bg:#0e1116; --card:#161b22; --ink:#e6edf3; --muted:#8b949e;
+    --line:#232a33; --prem:#ff6b6b; --disc:#3fb950; --accent:#589bff; --warn:#e3b341;}}
+  *{box-sizing:border-box} body{margin:0;background:var(--bg);color:var(--ink);
+    font-family:"Apple SD Gothic Neo","AppleGothic",-apple-system,"Segoe UI",sans-serif;line-height:1.5}
+  .wrap{max-width:960px;margin:0 auto;padding:20px 16px 60px}
+  header h1{font-size:20px;margin:0 0 4px} .sub{color:var(--muted);font-size:13px}
+  .card{background:var(--card);border:1px solid var(--line);border-radius:14px;padding:16px;margin-bottom:16px}
+  .card h2{font-size:15px;margin:0 0 10px} .hint{color:var(--muted);font-size:12px;margin:2px 0 12px}
+  .big{font-size:44px;font-weight:800;font-variant-numeric:tabular-nums;line-height:1.1}
+  .prem{color:var(--prem)} .disc{color:var(--disc)}
+  .label{display:inline-block;margin-top:6px;padding:3px 10px;border-radius:20px;font-size:12.5px;font-weight:700;
+    background:rgba(59,110,245,.12);color:var(--accent)}
+  .label.warn{background:rgba(196,127,0,.15);color:var(--warn)}
+  .qrow{display:grid;grid-template-columns:repeat(3,1fr);gap:10px;margin-top:14px}
+  @media(max-width:640px){.qrow{grid-template-columns:1fr}}
+  .q{background:var(--bg);border:1px solid var(--line);border-radius:10px;padding:11px 12px}
+  .q .t{font-size:12px;color:var(--muted)} .q .p{font-size:17px;font-weight:700;font-variant-numeric:tabular-nums;margin:2px 0}
+  .q .m{font-size:11.5px;color:var(--muted)} .q .stale{color:var(--warn);font-weight:700}
+  .badge{font-size:11px;border:1px solid var(--line);border-radius:6px;padding:1px 6px;color:var(--muted)}
+  table{width:100%;border-collapse:collapse;font-size:13.5px}
+  th,td{padding:9px 6px;border-bottom:1px solid var(--line);text-align:right;white-space:nowrap;font-variant-numeric:tabular-nums}
+  th{color:var(--muted);font-weight:600} th:first-child,td:first-child{text-align:left}
+  .chart{width:100%;overflow-x:auto;position:relative} svg{display:block;max-width:100%}
+  .seg{display:inline-flex;border:1px solid var(--line);border-radius:9px;overflow:hidden;margin-bottom:8px}
+  .seg button{border:0;background:transparent;color:var(--muted);padding:6px 11px;font-size:12px;cursor:pointer}
+  .seg button.on{background:var(--accent);color:#fff}
+  .tip{position:absolute;pointer-events:none;background:var(--card);border:1px solid var(--line);border-radius:8px;
+    padding:6px 9px;font-size:12px;opacity:0;box-shadow:0 4px 14px rgba(0,0,0,.12);white-space:nowrap}
+  footer{color:var(--muted);font-size:12px;margin-top:20px;text-align:center} a{color:var(--accent)} .muted{color:var(--muted)}
+</style>
+</head>
+<body>
+<div class="wrap">
+  <header><h1>🇰🇷🇺🇸 SK하이닉스 ADR 프리미엄</h1>
+    <div class="sub">본주 000660 · ADR SKHY · 환율 USD/KRW · ADR <b id="ratio"></b>주 = 본주 1주</div></header>
+
+  <div class="card" id="mainCard">
+    <div class="big" id="premBig">—</div>
+    <div id="label" class="label">—</div>
+    <p class="hint" id="oldest"></p>
+    <div class="qrow" id="quotes"></div>
+  </div>
+
+  <div class="card">
+    <h2>핵심 값 (최신 가용 기준)</h2>
+    <div class="tbl-wrap"><table id="coreTbl"><tbody></tbody></table></div>
+  </div>
+
+  <div class="card">
+    <h2>기준별 프리미엄</h2>
+    <p class="hint">시장 마감 시각이 다르므로 기준을 분리. B·C는 미래 가격을 당겨쓰지 않도록(look-ahead 방지) 시점 이전 데이터만 사용.</p>
+    <div class="tbl-wrap"><table id="basisTbl">
+      <thead><tr><th>기준</th><th>프리미엄</th><th>ADR</th><th>본주</th><th>환율</th></tr></thead>
+      <tbody></tbody></table></div>
+    <div id="egap" class="hint" style="margin-top:10px"></div>
+  </div>
+
+  <div class="card">
+    <h2>프리미엄 추이</h2>
+    <div class="seg" id="series"></div>
+    <div class="chart"><svg id="chart" viewBox="0 0 920 320" preserveAspectRatio="xMidYMid meet"></svg><div class="tip" id="tip"></div></div>
+  </div>
+
+  <footer>자료: Yahoo Finance(SKHY·000660.KS·KRW=X) · 시장시간 중 15분 간격 갱신 · <span id="gen"></span> 생성 · <a href="#">공유 링크</a></footer>
+</div>
+<script>
+const DATA={"generated": "2026-07-21 12:18", "ratio": 10, "current": {"label": "한국 장중 기준 (미국장 마감) · ⚠️데이터 시차 주의", "oldest_age_str": "3시간 18분 전", "premium_pct": 23.89, "adr_equivalent_krw": 2269679, "actual_common_krw": 1832000, "adr_implied_krw_price": 2269679, "kr_equivalent_adr_usd": 124.07, "fair_common_from_adr_krw": 2269679, "fair_adr_from_common_usd": 124.07, "meta": {"adr": {"price": 153.714, "kind": "post", "currency": "USD", "market_state_ko": "애프터마켓(마감후)", "exchange": "NasdaqGS", "tz": "America/New_York", "data_epoch": 1784591996, "age_sec": 11921, "stale": true, "local_time": "2026-07-20 19:59 ET", "age_str": "3시간 18분 전"}, "common": {"price": 1832000.0, "kind": "regular_live", "currency": "KRW", "market_state_ko": "정규장", "exchange": "KSE", "tz": "Asia/Seoul", "data_epoch": 1784602718, "age_sec": 1199, "stale": false, "local_time": "2026-07-21 11:58 KST", "age_str": "19분 전"}, "fx": {"price": 1476.56, "kind": "regular_live", "currency": "KRW", "market_state_ko": "정규장", "exchange": "CCY", "tz": "Europe/London", "data_epoch": 1784603916, "age_sec": 1, "stale": false, "local_time": "2026-07-21 04:18 GMT", "age_str": "0분 전"}}}, "bases": {"B": {"premium_pct": 27.46, "adr_date": "2026-07-20", "common_date": "2026-07-20", "fx_date": "2026-07-20"}, "C": {"premium_pct": 21.78, "adr_date": "2026-07-20", "common_date": "2026-07-21", "fx_date": "2026-07-21"}, "E": {"adr_date": "2026-07-20", "next_kr_date": "2026-07-21", "implied_krw": 2248339, "next_kr_open": 1775000, "gap_pct": -21.05}}, "intraday": [["2026-07-21 03:09", 23.83], ["2026-07-21 03:18", 23.89]], "daily": [["2026-07-10", 16.06], ["2026-07-13", 23.74], ["2026-07-14", 51.82], ["2026-07-15", 26.11], ["2026-07-16", 22.89], ["2026-07-20", 27.46]]};
+const $=s=>document.querySelector(s);
+const NS="http://www.w3.org/2000/svg";
+const el=(t,a)=>{const e=document.createElementNS(NS,t);for(const k in a)e.setAttribute(k,a[k]);return e;};
+const fmt=(n,d=0)=>n==null?"—":Number(n).toLocaleString("ko-KR",{minimumFractionDigits:d,maximumFractionDigits:d});
+const sgn=(n,d=2)=>n==null?"—":(n>=0?"+":"")+fmt(n,d);
+
+function head(){
+  $("#ratio").textContent=DATA.ratio;
+  $("#gen").textContent=DATA.generated||"";
+  const c=DATA.current;
+  if(!c||c.error){ $("#premBig").textContent="데이터 없음"; $("#label").textContent=c?c.error:"—"; return; }
+  const p=c.premium_pct, cls=p>=0?"prem":"disc", word=p>=0?"프리미엄":"디스카운트";
+  $("#premBig").innerHTML=`<span class="${cls}">${sgn(p)}%</span> <span style="font-size:16px;font-weight:600" class="muted">ADR ${word}</span>`;
+  const lab=$("#label"); lab.textContent=c.label; lab.className="label"+(c.label.includes("주의")?" warn":"");
+  $("#oldest").textContent="가장 오래된 데이터: "+c.oldest_age_str+" · 각 데이터 기준시각은 아래 카드 참고";
+  // quotes
+  const names={adr:"미국 ADR (SKHY)",common:"한국 본주 (000660)",fx:"환율 USD/KRW"};
+  $("#quotes").innerHTML=["adr","common","fx"].map(k=>{const m=c.meta[k];if(!m)return"";
+    const unit=k==="fx"?"":(m.currency==="USD"?" USD":" 원");
+    return `<div class="q"><div class="t">${names[k]} <span class="badge">${m.market_state_ko}</span></div>
+      <div class="p">${k==="fx"?fmt(m.price,2):fmt(m.price,k==="adr"?2:0)}${unit}</div>
+      <div class="m">${m.local_time} · <span class="${m.stale?'stale':''}">${m.age_str}${m.stale?' ⚠️stale':''}</span></div></div>`;}).join("");
+}
+
+function core(){
+  const c=DATA.current; if(!c||c.error){return;}
+  const rows=[
+    ["ADR 환산 본주 가격", fmt(c.adr_equivalent_krw)+" 원"],
+    ["실제 한국 본주 가격", fmt(c.actual_common_krw)+" 원"],
+    ["ADR 내재 한국 주가 (D)", fmt(c.adr_implied_krw_price)+" 원"],
+    ["ADR 기준 본주 적정가", fmt(c.fair_common_from_adr_krw)+" 원"],
+    ["본주 기준 ADR 적정가", fmt(c.fair_adr_from_common_usd,2)+" USD"],
+    ["본주의 ADR 환산가", fmt(c.kr_equivalent_adr_usd,2)+" USD"],
+  ];
+  $("#coreTbl tbody").innerHTML=rows.map(([a,b])=>`<tr><td>${a}</td><td>${b}</td></tr>`).join("");
+}
+
+function bases(){
+  const B=DATA.bases.B,C=DATA.bases.C,E=DATA.bases.E;
+  const row=(name,x)=>{ if(!x)return `<tr><td>${name}</td><td class="muted">—</td><td colspan="3" class="muted">데이터 부족</td></tr>`;
+    const cls=x.premium_pct>=0?"prem":"disc";
+    return `<tr><td>${name}</td><td class="${cls}">${sgn(x.premium_pct)}%</td><td>${x.adr_date}</td><td>${x.common_date}</td><td>${x.fx_date}</td></tr>`;};
+  const A=DATA.current&&!DATA.current.error?{premium_pct:DATA.current.premium_pct,adr_date:"실시간",common_date:"실시간",fx_date:"실시간"}:null;
+  $("#basisTbl tbody").innerHTML=row("A 최신 가용",A)+row("B 미국장 종가",B)+row("C 한국장 종가",C);
+  if(E){ if(E.pending) $("#egap").innerHTML=`<b>E. 미국장 이후 한국 시초가 추적:</b> ADR(${E.adr_date}) 암시 ${fmt(E.implied_krw)}원 → 다음 한국장 시초가 대기중`;
+    else{ const cls=E.gap_pct>=0?"prem":"disc";
+      $("#egap").innerHTML=`<b>E. 미국장 이후 한국 시초가 추적:</b> ADR(${E.adr_date}) 암시 <b>${fmt(E.implied_krw)}원</b> → 한국(${E.next_kr_date}) 시초 <b>${fmt(E.next_kr_open)}원</b> = <span class="${cls}">${sgn(E.gap_pct)}%</span> <span class="muted">(ADR 프리미엄과 별개 지표)</span>`;}}
+}
+
+let mode="intraday";
+function chart(){
+  const svg=$("#chart"),W=920,H=320,m={t:14,r:16,b:26,l:48};
+  const data=(mode==="intraday"?DATA.intraday:DATA.daily)||[]; svg.innerHTML="";
+  if(data.length<1){ const t=el("text",{x:460,y:160,"text-anchor":"middle",fill:"#888"});t.textContent="데이터 쌓이는 중 (15분마다 축적)";svg.appendChild(t);return;}
+  const ys=data.map(d=>d[1]); let mn=Math.min(0,...ys),mx=Math.max(0,...ys);
+  if(mn===mx){mn-=1;mx+=1;} const pad=(mx-mn)*.1||1; mn-=pad;mx+=pad;
+  const n=data.length, X=i=>m.l+(n<=1?(W-m.l-m.r)/2:(i/(n-1))*(W-m.l-m.r)), Y=v=>m.t+(1-(v-mn)/(mx-mn))*(H-m.t-m.b);
+  for(let g=0;g<=4;g++){const v=mn+(mx-mn)*g/4,y=Y(v);
+    svg.appendChild(el("line",{x1:m.l,y1:y,x2:W-m.r,y2:y,stroke:"var(--line)"}));
+    const t=el("text",{x:m.l-6,y:y+4,"text-anchor":"end",fill:"var(--muted)","font-size":11});t.textContent=sgn(v,1)+"%";svg.appendChild(t);}
+  const y0=Y(0); svg.appendChild(el("line",{x1:m.l,y1:y0,x2:W-m.r,y2:y0,stroke:"var(--muted)","stroke-dasharray":"4 3"}));
+  const step=Math.max(1,Math.floor(n/6));
+  for(let i=0;i<n;i+=step){const t=el("text",{x:X(i),y:H-8,"text-anchor":"middle",fill:"var(--muted)","font-size":10});t.textContent=(data[i][0]+"").slice(5);svg.appendChild(t);}
+  let d=""; data.forEach((p,i)=>{d+=(i?"L":"M")+X(i)+","+Y(p[1]);});
+  svg.appendChild(el("path",{d,fill:"none",stroke:"var(--accent)","stroke-width":2,"stroke-linejoin":"round"}));
+  data.forEach((p,i)=>{const c=el("circle",{cx:X(i),cy:Y(p[1]),r:3,fill:"var(--accent)"});
+    c.onmouseenter=()=>{const tip=$("#tip");tip.innerHTML=`<b>${p[0]}</b><br>프리미엄 <b>${sgn(p[1])}%</b>`;tip.style.opacity=1;
+      const rect=svg.getBoundingClientRect();tip.style.left=Math.min(rect.width-120,X(i)/W*rect.width+8)+"px";tip.style.top="6px";};
+    c.onmouseleave=()=>{$("#tip").style.opacity=0;};svg.appendChild(c);});
+}
+function seg(){const box=$("#series");[["intraday","인트라데이(15분)"],["daily","일별 종가"]].forEach(([v,l])=>{
+  const b=document.createElement("button");b.textContent=l;if(v===mode)b.className="on";
+  b.onclick=()=>{mode=v;[...box.children].forEach(x=>x.className="");b.className="on";chart();};box.appendChild(b);});}
+
+head();core();bases();seg();chart();
+</script>
+</body>
+</html>

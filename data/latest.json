@@ -1,0 +1,113 @@
+{
+ "generated": "2026-07-21 12:18",
+ "ratio": 10,
+ "current": {
+  "label": "한국 장중 기준 (미국장 마감) · ⚠️데이터 시차 주의",
+  "oldest_age_str": "3시간 18분 전",
+  "premium_pct": 23.89,
+  "adr_equivalent_krw": 2269679,
+  "actual_common_krw": 1832000,
+  "adr_implied_krw_price": 2269679,
+  "kr_equivalent_adr_usd": 124.07,
+  "fair_common_from_adr_krw": 2269679,
+  "fair_adr_from_common_usd": 124.07,
+  "meta": {
+   "adr": {
+    "price": 153.714,
+    "kind": "post",
+    "currency": "USD",
+    "market_state_ko": "애프터마켓(마감후)",
+    "exchange": "NasdaqGS",
+    "tz": "America/New_York",
+    "data_epoch": 1784591996,
+    "age_sec": 11921,
+    "stale": true,
+    "local_time": "2026-07-20 19:59 ET",
+    "age_str": "3시간 18분 전"
+   },
+   "common": {
+    "price": 1832000.0,
+    "kind": "regular_live",
+    "currency": "KRW",
+    "market_state_ko": "정규장",
+    "exchange": "KSE",
+    "tz": "Asia/Seoul",
+    "data_epoch": 1784602718,
+    "age_sec": 1199,
+    "stale": false,
+    "local_time": "2026-07-21 11:58 KST",
+    "age_str": "19분 전"
+   },
+   "fx": {
+    "price": 1476.56,
+    "kind": "regular_live",
+    "currency": "KRW",
+    "market_state_ko": "정규장",
+    "exchange": "CCY",
+    "tz": "Europe/London",
+    "data_epoch": 1784603916,
+    "age_sec": 1,
+    "stale": false,
+    "local_time": "2026-07-21 04:18 GMT",
+    "age_str": "0분 전"
+   }
+  }
+ },
+ "bases": {
+  "B": {
+   "premium_pct": 27.46,
+   "adr_date": "2026-07-20",
+   "common_date": "2026-07-20",
+   "fx_date": "2026-07-20"
+  },
+  "C": {
+   "premium_pct": 21.78,
+   "adr_date": "2026-07-20",
+   "common_date": "2026-07-21",
+   "fx_date": "2026-07-21"
+  },
+  "E": {
+   "adr_date": "2026-07-20",
+   "next_kr_date": "2026-07-21",
+   "implied_krw": 2248339,
+   "next_kr_open": 1775000,
+   "gap_pct": -21.05
+  }
+ },
+ "intraday": [
+  [
+   "2026-07-21 03:09",
+   23.83
+  ],
+  [
+   "2026-07-21 03:18",
+   23.89
+  ]
+ ],
+ "daily": [
+  [
+   "2026-07-10",
+   16.06
+  ],
+  [
+   "2026-07-13",
+   23.74
+  ],
+  [
+   "2026-07-14",
+   51.82
+  ],
+  [
+   "2026-07-15",
+   26.11
+  ],
+  [
+   "2026-07-16",
+   22.89
+  ],
+  [
+   "2026-07-20",
+   27.46
+  ]
+ ]
+}
