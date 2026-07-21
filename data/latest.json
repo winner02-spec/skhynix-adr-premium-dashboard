@@ -1,29 +1,29 @@
 {
- "generated": "2026-07-22 00:45",
+ "generated": "2026-07-22 01:00",
  "ratio": 10,
  "current": {
   "label": "ADR 장중 기준 (한국장 마감) · ⚠️데이터 시차 주의",
-  "oldest_age_str": "8시간 34분 전",
-  "premium_pct": 33.81,
-  "adr_equivalent_krw": 2456732,
+  "oldest_age_str": "8시간 49분 전",
+  "premium_pct": 32.93,
+  "adr_equivalent_krw": 2440649,
   "actual_common_krw": 1836000,
-  "adr_implied_krw_price": 2456732,
-  "kr_equivalent_adr_usd": 124.06,
-  "fair_common_from_adr_krw": 2456732,
-  "fair_adr_from_common_usd": 124.06,
+  "adr_implied_krw_price": 2440649,
+  "kr_equivalent_adr_usd": 124.07,
+  "fair_common_from_adr_krw": 2440649,
+  "fair_adr_from_common_usd": 124.07,
   "meta": {
    "adr": {
-    "price": 166.01,
+    "price": 164.9332,
     "kind": "regular_live",
     "currency": "USD",
     "source": "Yahoo Finance",
     "market_state_ko": "정규장",
     "exchange": "NasdaqGS",
     "tz": "America/New_York",
-    "data_epoch": 1784648704,
-    "age_sec": 1,
+    "data_epoch": 1784649606,
+    "age_sec": 0,
     "stale": false,
-    "local_time": "2026-07-21 11:45 ET",
+    "local_time": "2026-07-21 12:00 ET",
     "age_str": "0분 전"
    },
    "common": {
@@ -35,23 +35,23 @@
     "exchange": "KOSPI",
     "tz": "Asia/Seoul",
     "data_epoch": 1784617822,
-    "age_sec": 30883,
+    "age_sec": 31784,
     "stale": true,
     "local_time": "2026-07-21 16:10 KST",
-    "age_str": "8시간 34분 전"
+    "age_str": "8시간 49분 전"
    },
    "fx": {
-    "price": 1479.87,
+    "price": 1479.78,
     "kind": "regular_live",
     "currency": "KRW",
     "source": "Yahoo Finance",
     "market_state_ko": "정규장",
     "exchange": "CCY",
     "tz": "Europe/London",
-    "data_epoch": 1784648695,
-    "age_sec": 10,
+    "data_epoch": 1784649607,
+    "age_sec": 0,
     "stale": false,
-    "local_time": "2026-07-21 16:44 GMT",
+    "local_time": "2026-07-21 17:00 GMT",
     "age_str": "0분 전"
    }
   }
@@ -72,7 +72,7 @@
   "E": {
    "pending": true,
    "adr_date": "2026-07-21",
-   "implied_krw": 2468867
+   "implied_krw": 2439935
   }
  },
  "intraday": [
@@ -247,6 +247,10 @@
   [
    "2026-07-21 15:45",
    33.81
+  ],
+  [
+   "2026-07-21 16:00",
+   32.93
   ]
  ],
  "daily": [
