@@ -1,29 +1,29 @@
 {
- "generated": "2026-07-22 06:45",
+ "generated": "2026-07-22 07:00",
  "ratio": 10,
  "current": {
   "label": "최신 가용 가격 비교 (시간외 포함) · ⚠️데이터 시차 주의",
-  "oldest_age_str": "14시간 34분 전",
-  "premium_pct": 40.22,
-  "adr_equivalent_krw": 2574460,
+  "oldest_age_str": "14시간 49분 전",
+  "premium_pct": 39.48,
+  "adr_equivalent_krw": 2560876,
   "actual_common_krw": 1836000,
-  "adr_implied_krw_price": 2574460,
-  "kr_equivalent_adr_usd": 124.07,
-  "fair_common_from_adr_krw": 2574460,
-  "fair_adr_from_common_usd": 124.07,
+  "adr_implied_krw_price": 2560876,
+  "kr_equivalent_adr_usd": 124.02,
+  "fair_common_from_adr_krw": 2560876,
+  "fair_adr_from_common_usd": 124.02,
   "meta": {
    "adr": {
-    "price": 173.97,
+    "price": 172.9889,
     "kind": "post",
     "currency": "USD",
     "source": "Yahoo Finance",
     "market_state_ko": "애프터마켓",
     "exchange": "NasdaqGS",
     "tz": "America/New_York",
-    "data_epoch": 1784670304,
+    "data_epoch": 1784671204,
     "age_sec": 1,
     "stale": false,
-    "local_time": "2026-07-21 17:45 ET",
+    "local_time": "2026-07-21 18:00 ET",
     "age_str": "0분 전"
    },
    "common": {
@@ -35,36 +35,36 @@
     "exchange": "KOSPI",
     "tz": "Asia/Seoul",
     "data_epoch": 1784617822,
-    "age_sec": 52483,
+    "age_sec": 53383,
     "stale": true,
     "local_time": "2026-07-21 16:10 KST",
-    "age_str": "14시간 34분 전"
+    "age_str": "14시간 49분 전"
    },
    "fx": {
-    "price": 1479.83,
+    "price": 1480.37,
     "kind": "regular_live",
     "currency": "KRW",
     "source": "Yahoo Finance",
     "market_state_ko": "정규장",
     "exchange": "CCY",
     "tz": "Europe/London",
-    "data_epoch": 1784670303,
+    "data_epoch": 1784671203,
     "age_sec": 2,
     "stale": false,
-    "local_time": "2026-07-21 22:45 GMT",
+    "local_time": "2026-07-21 23:00 GMT",
     "age_str": "0분 전"
    }
   }
  },
  "bases": {
   "B": {
-   "premium_pct": NaN,
+   "premium_pct": 38.13,
    "adr_date": "2026-07-21",
    "common_date": "2026-07-21",
    "fx_date": "2026-07-21"
   },
   "C": {
-   "premium_pct": NaN,
+   "premium_pct": 21.44,
    "adr_date": "2026-07-20",
    "common_date": "2026-07-21",
    "fx_date": "2026-07-21"
@@ -72,7 +72,7 @@
   "E": {
    "pending": true,
    "adr_date": "2026-07-21",
-   "implied_krw": 2546053
+   "implied_krw": 2536132
   }
  },
  "intraday": [
@@ -343,6 +343,10 @@
   [
    "2026-07-21 21:45",
    40.22
+  ],
+  [
+   "2026-07-21 22:00",
+   39.48
   ]
  ],
  "daily": [
@@ -372,7 +376,7 @@
   ],
   [
    "2026-07-21",
-   NaN
+   38.13
   ]
  ]
 }
