@@ -1,16 +1,16 @@
 {
- "generated": "2026-07-21 14:15",
+ "generated": "2026-07-21 14:30",
  "ratio": 10,
  "current": {
   "label": "한국 장중 기준 (미국장 마감) · ⚠️데이터 시차 주의",
-  "oldest_age_str": "9시간 15분 전",
-  "premium_pct": 20.11,
-  "adr_equivalent_krw": 2229308,
-  "actual_common_krw": 1856000,
-  "adr_implied_krw_price": 2229308,
-  "kr_equivalent_adr_usd": 125.85,
-  "fair_common_from_adr_krw": 2229308,
-  "fair_adr_from_common_usd": 125.85,
+  "oldest_age_str": "9시간 30분 전",
+  "premium_pct": 19.51,
+  "adr_equivalent_krw": 2226405,
+  "actual_common_krw": 1863000,
+  "adr_implied_krw_price": 2226405,
+  "kr_equivalent_adr_usd": 126.49,
+  "fair_common_from_adr_krw": 2226405,
+  "fair_adr_from_common_usd": 126.49,
   "meta": {
    "adr": {
     "price": 151.16,
@@ -20,35 +20,35 @@
     "exchange": "NasdaqGS",
     "tz": "America/New_York",
     "data_epoch": 1784577600,
-    "age_sec": 33304,
+    "age_sec": 34205,
     "stale": true,
     "local_time": "2026-07-20 16:00 ET",
-    "age_str": "9시간 15분 전"
+    "age_str": "9시간 30분 전"
    },
    "common": {
-    "price": 1856000.0,
+    "price": 1863000.0,
     "kind": "regular_live",
     "currency": "KRW",
     "market_state_ko": "정규장",
     "exchange": "KSE",
     "tz": "Asia/Seoul",
-    "data_epoch": 1784609706,
-    "age_sec": 1198,
+    "data_epoch": 1784610606,
+    "age_sec": 1199,
     "stale": false,
-    "local_time": "2026-07-21 13:55 KST",
+    "local_time": "2026-07-21 14:10 KST",
     "age_str": "19분 전"
    },
    "fx": {
-    "price": 1474.8,
+    "price": 1472.88,
     "kind": "regular_live",
     "currency": "KRW",
     "market_state_ko": "정규장",
     "exchange": "CCY",
     "tz": "Europe/London",
-    "data_epoch": 1784610904,
+    "data_epoch": 1784611805,
     "age_sec": 0,
     "stale": false,
-    "local_time": "2026-07-21 06:15 GMT",
+    "local_time": "2026-07-21 06:30 GMT",
     "age_str": "0분 전"
    }
   }
@@ -94,6 +94,10 @@
   [
    "2026-07-21 05:15",
    20.11
+  ],
+  [
+   "2026-07-21 05:30",
+   19.51
   ]
  ],
  "daily": [
