@@ -1,16 +1,16 @@
 {
- "generated": "2026-07-22 13:00",
+ "generated": "2026-07-22 13:15",
  "ratio": 10,
  "current": {
   "label": "한국 장중 기준 (미국장 마감) · ⚠️데이터 시차 주의",
-  "oldest_age_str": "8시간 0분 전",
-  "premium_pct": 30.97,
-  "adr_equivalent_krw": 2551297,
-  "actual_common_krw": 1948000,
-  "adr_implied_krw_price": 2551297,
-  "kr_equivalent_adr_usd": 131.28,
-  "fair_common_from_adr_krw": 2551297,
-  "fair_adr_from_common_usd": 131.28,
+  "oldest_age_str": "8시간 15분 전",
+  "premium_pct": 30.77,
+  "adr_equivalent_krw": 2550042,
+  "actual_common_krw": 1950000,
+  "adr_implied_krw_price": 2550042,
+  "kr_equivalent_adr_usd": 131.48,
+  "fair_common_from_adr_krw": 2550042,
+  "fair_adr_from_common_usd": 131.48,
   "meta": {
    "adr": {
     "price": 171.94,
@@ -21,38 +21,38 @@
     "exchange": "NasdaqGS",
     "tz": "America/New_York",
     "data_epoch": 1784664000,
-    "age_sec": 28802,
+    "age_sec": 29705,
     "stale": true,
     "local_time": "2026-07-21 16:00 ET",
-    "age_str": "8시간 0분 전"
+    "age_str": "8시간 15분 전"
    },
    "common": {
-    "price": 1948000.0,
+    "price": 1950000.0,
     "kind": "regular_live",
     "currency": "KRW",
     "source": "네이버 금융(실시간)",
     "market_state_ko": "정규장",
     "exchange": "KOSPI",
     "tz": "Asia/Seoul",
-    "data_epoch": 1784692801,
-    "age_sec": 1,
+    "data_epoch": 1784693661,
+    "age_sec": 44,
     "stale": false,
-    "local_time": "2026-07-22 13:00 KST",
+    "local_time": "2026-07-22 13:14 KST",
     "age_str": "0분 전"
    },
    "fx": {
-    "price": 1483.83,
+    "price": 1483.1,
     "kind": "regular_live",
     "currency": "KRW",
     "source": "Yahoo Finance",
     "market_state_ko": "정규장",
     "exchange": "CCY",
     "tz": "Europe/London",
-    "data_epoch": 1784692804,
-    "age_sec": 0,
+    "data_epoch": 1784693020,
+    "age_sec": 685,
     "stale": false,
-    "local_time": "2026-07-22 05:00 GMT",
-    "age_str": "0분 전"
+    "local_time": "2026-07-22 05:03 GMT",
+    "age_str": "11분 전"
    }
   }
  },
@@ -445,6 +445,10 @@
   [
    "2026-07-22 04:00",
    30.97
+  ],
+  [
+   "2026-07-22 04:15",
+   30.77
   ]
  ],
  "daily": [
