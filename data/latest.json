@@ -1,29 +1,29 @@
 {
- "generated": "2026-07-23 01:00",
+ "generated": "2026-07-23 01:15",
  "ratio": 10,
  "current": {
   "label": "ADR 장중 기준 (한국장 마감) · ⚠️데이터 시차 주의",
-  "oldest_age_str": "8시간 49분 전",
-  "premium_pct": 36.36,
-  "adr_equivalent_krw": 2495471,
+  "oldest_age_str": "9시간 4분 전",
+  "premium_pct": 36.39,
+  "adr_equivalent_krw": 2495923,
   "actual_common_krw": 1830000,
-  "adr_implied_krw_price": 2495471,
-  "kr_equivalent_adr_usd": 123.93,
-  "fair_common_from_adr_krw": 2495471,
-  "fair_adr_from_common_usd": 123.93,
+  "adr_implied_krw_price": 2495923,
+  "kr_equivalent_adr_usd": 123.89,
+  "fair_common_from_adr_krw": 2495923,
+  "fair_adr_from_common_usd": 123.89,
   "meta": {
    "adr": {
-    "price": 169.0,
+    "price": 168.97,
     "kind": "regular_live",
     "currency": "USD",
     "source": "Yahoo Finance",
     "market_state_ko": "정규장",
     "exchange": "NasdaqGS",
     "tz": "America/New_York",
-    "data_epoch": 1784736006,
-    "age_sec": 0,
+    "data_epoch": 1784736895,
+    "age_sec": 5,
     "stale": false,
-    "local_time": "2026-07-22 12:00 ET",
+    "local_time": "2026-07-22 12:14 ET",
     "age_str": "0분 전"
    },
    "common": {
@@ -35,23 +35,23 @@
     "exchange": "KOSPI",
     "tz": "Asia/Seoul",
     "data_epoch": 1784704222,
-    "age_sec": 31783,
+    "age_sec": 32678,
     "stale": true,
     "local_time": "2026-07-22 16:10 KST",
-    "age_str": "8시간 49분 전"
+    "age_str": "9시간 4분 전"
    },
    "fx": {
-    "price": 1476.61,
+    "price": 1477.14,
     "kind": "regular_live",
     "currency": "KRW",
     "source": "Yahoo Finance",
     "market_state_ko": "정규장",
     "exchange": "CCY",
     "tz": "Europe/London",
-    "data_epoch": 1784736008,
-    "age_sec": 0,
+    "data_epoch": 1784736894,
+    "age_sec": 6,
     "stale": false,
-    "local_time": "2026-07-22 17:00 GMT",
+    "local_time": "2026-07-22 17:14 GMT",
     "age_str": "0분 전"
    }
   }
@@ -615,6 +615,10 @@
   [
    "2026-07-22 16:00",
    36.36
+  ],
+  [
+   "2026-07-22 16:15",
+   36.39
   ]
  ],
  "daily": [
