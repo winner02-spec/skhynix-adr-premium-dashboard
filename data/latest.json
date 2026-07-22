@@ -1,57 +1,57 @@
 {
- "generated": "2026-07-22 12:45",
+ "generated": "2026-07-22 13:00",
  "ratio": 10,
  "current": {
   "label": "한국 장중 기준 (미국장 마감) · ⚠️데이터 시차 주의",
-  "oldest_age_str": "3시간 45분 전",
-  "premium_pct": 31.92,
-  "adr_equivalent_krw": 2568472,
-  "actual_common_krw": 1947000,
-  "adr_implied_krw_price": 2568472,
-  "kr_equivalent_adr_usd": 131.31,
-  "fair_common_from_adr_krw": 2568472,
-  "fair_adr_from_common_usd": 131.31,
+  "oldest_age_str": "8시간 0분 전",
+  "premium_pct": 30.97,
+  "adr_equivalent_krw": 2551297,
+  "actual_common_krw": 1948000,
+  "adr_implied_krw_price": 2551297,
+  "kr_equivalent_adr_usd": 131.28,
+  "fair_common_from_adr_krw": 2551297,
+  "fair_adr_from_common_usd": 131.28,
   "meta": {
    "adr": {
-    "price": 173.22,
-    "kind": "post",
+    "price": 171.94,
+    "kind": "regular_close",
     "currency": "USD",
     "source": "Yahoo Finance",
-    "market_state_ko": "애프터마켓(마감후)",
+    "market_state_ko": "프리마켓(개장전)",
     "exchange": "NasdaqGS",
     "tz": "America/New_York",
-    "data_epoch": 1784678399,
-    "age_sec": 13506,
+    "data_epoch": 1784664000,
+    "age_sec": 28802,
     "stale": true,
-    "local_time": "2026-07-21 19:59 ET",
-    "age_str": "3시간 45분 전"
+    "local_time": "2026-07-21 16:00 ET",
+    "age_str": "8시간 0분 전"
    },
    "common": {
-    "price": 1947000.0,
+    "price": 1948000.0,
     "kind": "regular_live",
     "currency": "KRW",
     "source": "네이버 금융(실시간)",
     "market_state_ko": "정규장",
     "exchange": "KOSPI",
     "tz": "Asia/Seoul",
-    "data_epoch": 1784691860,
-    "age_sec": 45,
+    "data_epoch": 1784692801,
+    "age_sec": 1,
     "stale": false,
-    "local_time": "2026-07-22 12:44 KST",
+    "local_time": "2026-07-22 13:00 KST",
     "age_str": "0분 전"
    },
    "fx": {
-    "price": 1482.78,
+    "price": 1483.83,
     "kind": "regular_live",
     "currency": "KRW",
     "source": "Yahoo Finance",
     "market_state_ko": "정규장",
     "exchange": "CCY",
     "tz": "Europe/London",
-    "data_epoch": 1784691905,
+    "data_epoch": 1784692804,
     "age_sec": 0,
     "stale": false,
-    "local_time": "2026-07-22 04:45 GMT",
+    "local_time": "2026-07-22 05:00 GMT",
     "age_str": "0분 전"
    }
   }
@@ -64,7 +64,7 @@
    "fx_date": "2026-07-21"
   },
   "C": {
-   "premium_pct": 29.32,
+   "premium_pct": 31.24,
    "adr_date": "2026-07-21",
    "common_date": "2026-07-22",
    "fx_date": "2026-07-22"
@@ -441,6 +441,10 @@
   [
    "2026-07-22 03:45",
    31.92
+  ],
+  [
+   "2026-07-22 04:00",
+   30.97
   ]
  ],
  "daily": [
