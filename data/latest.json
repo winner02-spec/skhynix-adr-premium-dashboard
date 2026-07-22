@@ -1,29 +1,29 @@
 {
- "generated": "2026-07-23 04:45",
+ "generated": "2026-07-23 05:00",
  "ratio": 10,
  "current": {
-  "label": "ADR 장중 기준 (한국장 마감) · ⚠️데이터 시차 주의",
-  "oldest_age_str": "12시간 34분 전",
-  "premium_pct": 34.8,
-  "adr_equivalent_krw": 2466810,
+  "label": "최신 가용 가격 비교 (시간외 포함) · ⚠️데이터 시차 주의",
+  "oldest_age_str": "12시간 49분 전",
+  "premium_pct": 33.5,
+  "adr_equivalent_krw": 2443066,
   "actual_common_krw": 1830000,
-  "adr_implied_krw_price": 2466810,
-  "kr_equivalent_adr_usd": 123.88,
-  "fair_common_from_adr_krw": 2466810,
-  "fair_adr_from_common_usd": 123.88,
+  "adr_implied_krw_price": 2443066,
+  "kr_equivalent_adr_usd": 123.89,
+  "fair_common_from_adr_krw": 2443066,
+  "fair_adr_from_common_usd": 123.89,
   "meta": {
    "adr": {
-    "price": 166.99,
-    "kind": "regular_live",
+    "price": 165.395,
+    "kind": "regular_close",
     "currency": "USD",
     "source": "Yahoo Finance",
-    "market_state_ko": "정규장",
+    "market_state_ko": "애프터마켓",
     "exchange": "NasdaqGS",
     "tz": "America/New_York",
-    "data_epoch": 1784749500,
-    "age_sec": 0,
+    "data_epoch": 1784750394,
+    "age_sec": 12,
     "stale": false,
-    "local_time": "2026-07-22 15:45 ET",
+    "local_time": "2026-07-22 15:59 ET",
     "age_str": "0분 전"
    },
    "common": {
@@ -35,23 +35,23 @@
     "exchange": "KOSPI",
     "tz": "Asia/Seoul",
     "data_epoch": 1784704222,
-    "age_sec": 45278,
+    "age_sec": 46184,
     "stale": true,
     "local_time": "2026-07-22 16:10 KST",
-    "age_str": "12시간 34분 전"
+    "age_str": "12시간 49분 전"
    },
    "fx": {
-    "price": 1477.22,
+    "price": 1477.11,
     "kind": "regular_live",
     "currency": "KRW",
     "source": "Yahoo Finance",
     "market_state_ko": "정규장",
     "exchange": "CCY",
     "tz": "Europe/London",
-    "data_epoch": 1784749492,
-    "age_sec": 8,
+    "data_epoch": 1784750405,
+    "age_sec": 1,
     "stale": false,
-    "local_time": "2026-07-22 20:44 GMT",
+    "local_time": "2026-07-22 21:00 GMT",
     "age_str": "0분 전"
    }
   }
@@ -72,7 +72,7 @@
   "E": {
    "pending": true,
    "adr_date": "2026-07-22",
-   "implied_krw": 2460695
+   "implied_krw": 2442697
   }
  },
  "intraday": [
@@ -675,6 +675,10 @@
   [
    "2026-07-22 19:45",
    34.8
+  ],
+  [
+   "2026-07-22 20:00",
+   33.5
   ]
  ],
  "daily": [
