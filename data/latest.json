@@ -1,16 +1,16 @@
 {
- "generated": "2026-07-22 09:30",
+ "generated": "2026-07-22 09:45",
  "ratio": 10,
  "current": {
   "label": "한국 장중 기준 (미국장 마감) · ⚠️데이터 시차 주의",
-  "oldest_age_str": "30분 전",
-  "premium_pct": 28.86,
-  "adr_equivalent_krw": 2560503,
-  "actual_common_krw": 1987000,
-  "adr_implied_krw_price": 2560503,
-  "kr_equivalent_adr_usd": 134.42,
-  "fair_common_from_adr_krw": 2560503,
-  "fair_adr_from_common_usd": 134.42,
+  "oldest_age_str": "45분 전",
+  "premium_pct": 29.21,
+  "adr_equivalent_krw": 2563448,
+  "actual_common_krw": 1984000,
+  "adr_implied_krw_price": 2563448,
+  "kr_equivalent_adr_usd": 134.06,
+  "fair_common_from_adr_krw": 2563448,
+  "fair_adr_from_common_usd": 134.06,
   "meta": {
    "adr": {
     "price": 173.22,
@@ -21,37 +21,37 @@
     "exchange": "NasdaqGS",
     "tz": "America/New_York",
     "data_epoch": 1784678399,
-    "age_sec": 1806,
+    "age_sec": 2706,
     "stale": true,
     "local_time": "2026-07-21 19:59 ET",
-    "age_str": "30분 전"
+    "age_str": "45분 전"
    },
    "common": {
-    "price": 1987000.0,
+    "price": 1984000.0,
     "kind": "regular_live",
     "currency": "KRW",
     "source": "네이버 금융(실시간)",
     "market_state_ko": "정규장",
     "exchange": "KOSPI",
     "tz": "Asia/Seoul",
-    "data_epoch": 1784680159,
-    "age_sec": 46,
+    "data_epoch": 1784681100,
+    "age_sec": 5,
     "stale": false,
-    "local_time": "2026-07-22 09:29 KST",
+    "local_time": "2026-07-22 09:45 KST",
     "age_str": "0분 전"
    },
    "fx": {
-    "price": 1478.18,
+    "price": 1479.88,
     "kind": "regular_live",
     "currency": "KRW",
     "source": "Yahoo Finance",
     "market_state_ko": "정규장",
     "exchange": "CCY",
     "tz": "Europe/London",
-    "data_epoch": 1784680205,
+    "data_epoch": 1784681105,
     "age_sec": 0,
     "stale": false,
-    "local_time": "2026-07-22 01:30 GMT",
+    "local_time": "2026-07-22 01:45 GMT",
     "age_str": "0분 전"
    }
   }
@@ -387,6 +387,10 @@
   [
    "2026-07-22 00:30",
    28.86
+  ],
+  [
+   "2026-07-22 00:45",
+   29.21
   ]
  ],
  "daily": [
