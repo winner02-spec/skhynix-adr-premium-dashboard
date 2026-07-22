@@ -1,29 +1,29 @@
 {
- "generated": "2026-07-23 08:00",
+ "generated": "2026-07-23 08:15",
  "ratio": 10,
  "current": {
-  "label": "최신 가용 가격 비교 (시간외 포함) · ⚠️데이터 시차 주의",
-  "oldest_age_str": "15시간 49분 전",
-  "premium_pct": 35.67,
-  "adr_equivalent_krw": 2482774,
+  "label": "최신 가용 가격 비교 (시간외 포함)",
+  "oldest_age_str": "0분 전",
+  "premium_pct": 35.51,
+  "adr_equivalent_krw": 2479919,
   "actual_common_krw": 1830000,
-  "adr_implied_krw_price": 2482774,
+  "adr_implied_krw_price": 2479919,
   "kr_equivalent_adr_usd": 123.96,
-  "fair_common_from_adr_krw": 2482774,
+  "fair_common_from_adr_krw": 2479919,
   "fair_adr_from_common_usd": 123.96,
   "meta": {
    "adr": {
-    "price": 168.18,
+    "price": 167.99,
     "kind": "post",
     "currency": "USD",
     "source": "Yahoo Finance",
     "market_state_ko": "애프터마켓",
     "exchange": "NasdaqGS",
     "tz": "America/New_York",
-    "data_epoch": 1784761196,
-    "age_sec": 4,
+    "data_epoch": 1784762098,
+    "age_sec": 3,
     "stale": false,
-    "local_time": "2026-07-22 18:59 ET",
+    "local_time": "2026-07-22 19:14 ET",
     "age_str": "0분 전"
    },
    "common": {
@@ -31,27 +31,27 @@
     "kind": "regular_close",
     "currency": "KRW",
     "source": "네이버 금융(실시간)",
-    "market_state_ko": "장마감",
+    "market_state_ko": "PREOPEN",
     "exchange": "KOSPI",
     "tz": "Asia/Seoul",
-    "data_epoch": 1784704222,
-    "age_sec": 56978,
-    "stale": true,
-    "local_time": "2026-07-22 16:10 KST",
-    "age_str": "15시간 49분 전"
+    "data_epoch": 1784762102,
+    "age_sec": 0,
+    "stale": false,
+    "local_time": "2026-07-23 08:15 KST",
+    "age_str": "0분 전"
    },
    "fx": {
-    "price": 1476.26,
+    "price": 1476.23,
     "kind": "regular_live",
     "currency": "KRW",
     "source": "Yahoo Finance",
     "market_state_ko": "정규장",
     "exchange": "CCY",
     "tz": "Europe/London",
-    "data_epoch": 1784761199,
-    "age_sec": 1,
+    "data_epoch": 1784762101,
+    "age_sec": 0,
     "stale": false,
-    "local_time": "2026-07-22 23:59 GMT",
+    "local_time": "2026-07-23 00:15 GMT",
     "age_str": "0분 전"
    }
   }
@@ -727,6 +727,10 @@
   [
    "2026-07-22 23:00",
    35.67
+  ],
+  [
+   "2026-07-22 23:15",
+   35.51
   ]
  ],
  "daily": [
