@@ -1,16 +1,16 @@
 {
- "generated": "2026-07-22 13:45",
+ "generated": "2026-07-22 14:00",
  "ratio": 10,
  "current": {
   "label": "한국 장중 기준 (미국장 마감) · ⚠️데이터 시차 주의",
-  "oldest_age_str": "8시간 45분 전",
-  "premium_pct": 31.61,
-  "adr_equivalent_krw": 2550558,
-  "actual_common_krw": 1938000,
-  "adr_implied_krw_price": 2550558,
-  "kr_equivalent_adr_usd": 130.65,
-  "fair_common_from_adr_krw": 2550558,
-  "fair_adr_from_common_usd": 130.65,
+  "oldest_age_str": "9시간 0분 전",
+  "premium_pct": 32.13,
+  "adr_equivalent_krw": 2548839,
+  "actual_common_krw": 1929000,
+  "adr_implied_krw_price": 2548839,
+  "kr_equivalent_adr_usd": 130.13,
+  "fair_common_from_adr_krw": 2548839,
+  "fair_adr_from_common_usd": 130.13,
   "meta": {
    "adr": {
     "price": 171.94,
@@ -21,38 +21,38 @@
     "exchange": "NasdaqGS",
     "tz": "America/New_York",
     "data_epoch": 1784664000,
-    "age_sec": 31505,
+    "age_sec": 32405,
     "stale": true,
     "local_time": "2026-07-21 16:00 ET",
-    "age_str": "8시간 45분 전"
+    "age_str": "9시간 0분 전"
    },
    "common": {
-    "price": 1938000.0,
+    "price": 1929000.0,
     "kind": "regular_live",
     "currency": "KRW",
     "source": "네이버 금융(실시간)",
     "market_state_ko": "정규장",
     "exchange": "KOSPI",
     "tz": "Asia/Seoul",
-    "data_epoch": 1784695460,
-    "age_sec": 45,
+    "data_epoch": 1784696362,
+    "age_sec": 43,
     "stale": false,
-    "local_time": "2026-07-22 13:44 KST",
+    "local_time": "2026-07-22 13:59 KST",
     "age_str": "0분 전"
    },
    "fx": {
-    "price": 1483.4,
+    "price": 1482.4,
     "kind": "regular_live",
     "currency": "KRW",
     "source": "Yahoo Finance",
     "market_state_ko": "정규장",
     "exchange": "CCY",
     "tz": "Europe/London",
-    "data_epoch": 1784694190,
-    "age_sec": 1315,
+    "data_epoch": 1784695781,
+    "age_sec": 624,
     "stale": false,
-    "local_time": "2026-07-22 05:23 GMT",
-    "age_str": "21분 전"
+    "local_time": "2026-07-22 05:49 GMT",
+    "age_str": "10분 전"
    }
   }
  },
@@ -64,7 +64,7 @@
    "fx_date": "2026-07-21"
   },
   "C": {
-   "premium_pct": 31.24,
+   "premium_pct": 31.52,
    "adr_date": "2026-07-21",
    "common_date": "2026-07-22",
    "fx_date": "2026-07-22"
@@ -457,6 +457,10 @@
   [
    "2026-07-22 04:45",
    31.61
+  ],
+  [
+   "2026-07-22 05:00",
+   32.13
   ]
  ],
  "daily": [
