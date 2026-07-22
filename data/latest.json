@@ -1,29 +1,29 @@
 {
- "generated": "2026-07-23 00:45",
+ "generated": "2026-07-23 01:00",
  "ratio": 10,
  "current": {
   "label": "ADR 장중 기준 (한국장 마감) · ⚠️데이터 시차 주의",
-  "oldest_age_str": "8시간 34분 전",
-  "premium_pct": 35.09,
-  "adr_equivalent_krw": 2472075,
+  "oldest_age_str": "8시간 49분 전",
+  "premium_pct": 36.36,
+  "adr_equivalent_krw": 2495471,
   "actual_common_krw": 1830000,
-  "adr_implied_krw_price": 2472075,
-  "kr_equivalent_adr_usd": 123.97,
-  "fair_common_from_adr_krw": 2472075,
-  "fair_adr_from_common_usd": 123.97,
+  "adr_implied_krw_price": 2495471,
+  "kr_equivalent_adr_usd": 123.93,
+  "fair_common_from_adr_krw": 2495471,
+  "fair_adr_from_common_usd": 123.93,
   "meta": {
    "adr": {
-    "price": 167.47,
+    "price": 169.0,
     "kind": "regular_live",
     "currency": "USD",
     "source": "Yahoo Finance",
     "market_state_ko": "정규장",
     "exchange": "NasdaqGS",
     "tz": "America/New_York",
-    "data_epoch": 1784735100,
+    "data_epoch": 1784736006,
     "age_sec": 0,
     "stale": false,
-    "local_time": "2026-07-22 11:45 ET",
+    "local_time": "2026-07-22 12:00 ET",
     "age_str": "0분 전"
    },
    "common": {
@@ -35,23 +35,23 @@
     "exchange": "KOSPI",
     "tz": "Asia/Seoul",
     "data_epoch": 1784704222,
-    "age_sec": 30878,
+    "age_sec": 31783,
     "stale": true,
     "local_time": "2026-07-22 16:10 KST",
-    "age_str": "8시간 34분 전"
+    "age_str": "8시간 49분 전"
    },
    "fx": {
-    "price": 1476.13,
+    "price": 1476.61,
     "kind": "regular_live",
     "currency": "KRW",
     "source": "Yahoo Finance",
     "market_state_ko": "정규장",
     "exchange": "CCY",
     "tz": "Europe/London",
-    "data_epoch": 1784735096,
-    "age_sec": 4,
+    "data_epoch": 1784736008,
+    "age_sec": 0,
     "stale": false,
-    "local_time": "2026-07-22 16:44 GMT",
+    "local_time": "2026-07-22 17:00 GMT",
     "age_str": "0분 전"
    }
   }
@@ -72,7 +72,7 @@
   "E": {
    "pending": true,
    "adr_date": "2026-07-22",
-   "implied_krw": 2471201
+   "implied_krw": 2495471
   }
  },
  "intraday": [
@@ -611,6 +611,10 @@
   [
    "2026-07-22 15:45",
    35.09
+  ],
+  [
+   "2026-07-22 16:00",
+   36.36
   ]
  ],
  "daily": [
