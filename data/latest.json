@@ -1,29 +1,29 @@
 {
- "generated": "2026-07-23 01:30",
+ "generated": "2026-07-23 01:45",
  "ratio": 10,
  "current": {
   "label": "ADR 장중 기준 (한국장 마감) · ⚠️데이터 시차 주의",
-  "oldest_age_str": "9시간 19분 전",
-  "premium_pct": 35.68,
-  "adr_equivalent_krw": 2482948,
+  "oldest_age_str": "9시간 34분 전",
+  "premium_pct": 35.22,
+  "adr_equivalent_krw": 2474550,
   "actual_common_krw": 1830000,
-  "adr_implied_krw_price": 2482948,
-  "kr_equivalent_adr_usd": 123.98,
-  "fair_common_from_adr_krw": 2482948,
-  "fair_adr_from_common_usd": 123.98,
+  "adr_implied_krw_price": 2474550,
+  "kr_equivalent_adr_usd": 123.92,
+  "fair_common_from_adr_krw": 2474550,
+  "fair_adr_from_common_usd": 123.92,
   "meta": {
    "adr": {
-    "price": 168.21,
+    "price": 167.565,
     "kind": "regular_live",
     "currency": "USD",
     "source": "Yahoo Finance",
     "market_state_ko": "정규장",
     "exchange": "NasdaqGS",
     "tz": "America/New_York",
-    "data_epoch": 1784737803,
-    "age_sec": 3,
+    "data_epoch": 1784738701,
+    "age_sec": 0,
     "stale": false,
-    "local_time": "2026-07-22 12:30 ET",
+    "local_time": "2026-07-22 12:45 ET",
     "age_str": "0분 전"
    },
    "common": {
@@ -35,23 +35,23 @@
     "exchange": "KOSPI",
     "tz": "Asia/Seoul",
     "data_epoch": 1784704222,
-    "age_sec": 33584,
+    "age_sec": 34478,
     "stale": true,
     "local_time": "2026-07-22 16:10 KST",
-    "age_str": "9시간 19분 전"
+    "age_str": "9시간 34분 전"
    },
    "fx": {
-    "price": 1476.1,
+    "price": 1476.77,
     "kind": "regular_live",
     "currency": "KRW",
     "source": "Yahoo Finance",
     "market_state_ko": "정규장",
     "exchange": "CCY",
     "tz": "Europe/London",
-    "data_epoch": 1784737797,
-    "age_sec": 9,
+    "data_epoch": 1784738701,
+    "age_sec": 0,
     "stale": false,
-    "local_time": "2026-07-22 17:29 GMT",
+    "local_time": "2026-07-22 17:45 GMT",
     "age_str": "0분 전"
    }
   }
@@ -623,6 +623,10 @@
   [
    "2026-07-22 16:30",
    35.68
+  ],
+  [
+   "2026-07-22 16:45",
+   35.22
   ]
  ],
  "daily": [
