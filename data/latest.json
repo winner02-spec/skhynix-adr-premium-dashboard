@@ -1,19 +1,19 @@
 {
- "generated": "2026-07-24 11:30",
+ "generated": "2026-07-24 11:45",
  "ratio": 10,
  "current": {
   "label": "한국 장중 기준 (미국장 마감)",
   "oldest_age_str": "0분 전",
-  "premium_pct": 33.33,
-  "adr_equivalent_krw": 2413237,
-  "actual_common_krw": 1810000,
-  "adr_implied_krw_price": 2413237,
-  "kr_equivalent_adr_usd": 123.71,
-  "fair_common_from_adr_krw": 2413237,
-  "fair_adr_from_common_usd": 123.71,
+  "premium_pct": 33.39,
+  "adr_equivalent_krw": 2382969,
+  "actual_common_krw": 1786500,
+  "adr_implied_krw_price": 2382969,
+  "kr_equivalent_adr_usd": 121.98,
+  "fair_common_from_adr_krw": 2382969,
+  "fair_adr_from_common_usd": 121.98,
   "meta": {
    "adr": {
-    "price": 164.94,
+    "price": 162.71,
     "kind": "closed",
     "currency": "USD",
     "source": "토스증권",
@@ -21,20 +21,20 @@
     "market_state_ko": "장마감",
     "exchange": "NASDAQ",
     "tz": "America/New_York",
-    "data_epoch": 1784860201,
+    "data_epoch": 1784861100,
     "age_sec": 0,
     "stale": false,
     "verify": {
      "compare_source": "Yahoo",
      "compare_price": 169.5,
-     "diff_pct": 2.69,
-     "flag": false
+     "diff_pct": 4.01,
+     "flag": true
     },
-    "local_time": "2026-07-23 22:30 ET",
+    "local_time": "2026-07-23 22:45 ET",
     "age_str": "0분 전"
    },
    "common": {
-    "price": 1810000.0,
+    "price": 1786500.0,
     "kind": "regular_live",
     "currency": "KRW",
     "source": "토스증권",
@@ -42,20 +42,20 @@
     "market_state_ko": "정규장",
     "exchange": "KRX",
     "tz": "Asia/Seoul",
-    "data_epoch": 1784860201,
+    "data_epoch": 1784861101,
     "age_sec": 0,
     "stale": false,
     "verify": {
      "compare_source": "Yahoo",
-     "compare_price": 1823000.0,
-     "diff_pct": 0.71,
+     "compare_price": 1820000.0,
+     "diff_pct": 1.84,
      "flag": false
     },
-    "local_time": "2026-07-24 11:30 KST",
+    "local_time": "2026-07-24 11:45 KST",
     "age_str": "0분 전"
    },
    "fx": {
-    "price": 1463.1,
+    "price": 1464.55,
     "kind": "regular_live",
     "currency": "KRW",
     "source": "토스증권(midRate)",
@@ -63,16 +63,16 @@
     "market_state_ko": "실시간",
     "exchange": "USD/KRW",
     "tz": "Asia/Seoul",
-    "data_epoch": 1784860154,
-    "age_sec": 47,
+    "data_epoch": 1784861054,
+    "age_sec": 46,
     "stale": false,
     "verify": {
      "compare_source": "Yahoo",
      "compare_price": 1464.0,
-     "diff_pct": 0.06,
+     "diff_pct": 0.04,
      "flag": false
     },
-    "local_time": "2026-07-24 11:29 KST",
+    "local_time": "2026-07-24 11:44 KST",
     "age_str": "0분 전"
    }
   }
@@ -1178,6 +1178,10 @@
   [
    "2026-07-24 02:30",
    33.33
+  ],
+  [
+   "2026-07-24 02:45",
+   33.39
   ]
  ],
  "daily": [
@@ -57407,39 +57411,39 @@
   "ratio": 5,
   "live": {
    "adr": {
-    "price": 413.28,
+    "price": 411.82,
     "ccy": "USD",
     "source": "토스증권",
     "session": "장마감",
-    "local_time": "2026-07-23 22:29 ET",
+    "local_time": "2026-07-23 22:44 ET",
     "age_str": "0분 전",
     "stale": false
    },
    "common": {
-    "price": 2360.0,
+    "price": 2355.0,
     "ccy": "TWD",
     "source": "Yahoo Finance",
     "session": "장마감",
-    "local_time": "2026-07-24 10:10 TST",
+    "local_time": "2026-07-24 10:24 TST",
     "age_str": "20분 전",
     "stale": false
    },
    "fx": {
-    "price": 32.322,
+    "price": 32.331,
     "ccy": "TWD",
     "source": "Yahoo Finance",
     "session": "실시간",
-    "local_time": "2026-07-24 03:30 GMT",
-    "age_str": "0분 전",
+    "local_time": "2026-07-24 03:43 GMT",
+    "age_str": "1분 전",
     "stale": false
    }
   },
   "live_premium": {
-   "premium_pct": 13.2,
-   "implied_usd": 365.08,
-   "tsm": 413.28,
-   "tw": 2360.0,
-   "usdtwd": 32.322
+   "premium_pct": 13.07,
+   "implied_usd": 364.2,
+   "tsm": 411.82,
+   "tw": 2355.0,
+   "usdtwd": 32.331
   }
  }
 }
