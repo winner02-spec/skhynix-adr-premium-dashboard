@@ -1,19 +1,19 @@
 {
- "generated": "2026-07-24 14:45",
+ "generated": "2026-07-24 15:00",
  "ratio": 10,
  "current": {
   "label": "한국 장중 기준 (미국장 마감)",
   "oldest_age_str": "0분 전",
-  "premium_pct": 35.92,
-  "adr_equivalent_krw": 2427549,
-  "actual_common_krw": 1786000,
-  "adr_implied_krw_price": 2427549,
-  "kr_equivalent_adr_usd": 121.92,
-  "fair_common_from_adr_krw": 2427549,
-  "fair_adr_from_common_usd": 121.92,
+  "premium_pct": 36.09,
+  "adr_equivalent_krw": 2416352,
+  "actual_common_krw": 1775500,
+  "adr_implied_krw_price": 2416352,
+  "kr_equivalent_adr_usd": 121.07,
+  "fair_common_from_adr_krw": 2416352,
+  "fair_adr_from_common_usd": 121.07,
   "meta": {
    "adr": {
-    "price": 165.72,
+    "price": 164.77,
     "kind": "closed",
     "currency": "USD",
     "source": "토스증권",
@@ -21,20 +21,20 @@
     "market_state_ko": "장마감",
     "exchange": "NASDAQ",
     "tz": "America/New_York",
-    "data_epoch": 1784871902,
-    "age_sec": 0,
+    "data_epoch": 1784872802,
+    "age_sec": 2,
     "stale": false,
     "verify": {
      "compare_source": "Yahoo",
      "compare_price": 169.5,
-     "diff_pct": 2.23,
+     "diff_pct": 2.79,
      "flag": false
     },
-    "local_time": "2026-07-24 01:45 ET",
+    "local_time": "2026-07-24 02:00 ET",
     "age_str": "0분 전"
    },
    "common": {
-    "price": 1786000.0,
+    "price": 1775500.0,
     "kind": "regular_live",
     "currency": "KRW",
     "source": "토스증권",
@@ -42,20 +42,20 @@
     "market_state_ko": "정규장",
     "exchange": "KRX",
     "tz": "Asia/Seoul",
-    "data_epoch": 1784871903,
+    "data_epoch": 1784872804,
     "age_sec": 0,
     "stale": false,
     "verify": {
      "compare_source": "Yahoo",
-     "compare_price": 1789500.0,
-     "diff_pct": 0.2,
+     "compare_price": 1791000.0,
+     "diff_pct": 0.87,
      "flag": false
     },
-    "local_time": "2026-07-24 14:45 KST",
+    "local_time": "2026-07-24 15:00 KST",
     "age_str": "0분 전"
    },
    "fx": {
-    "price": 1464.85,
+    "price": 1466.5,
     "kind": "regular_live",
     "currency": "KRW",
     "source": "토스증권(midRate)",
@@ -63,16 +63,16 @@
     "market_state_ko": "실시간",
     "exchange": "USD/KRW",
     "tz": "Asia/Seoul",
-    "data_epoch": 1784871854,
-    "age_sec": 48,
+    "data_epoch": 1784872754,
+    "age_sec": 50,
     "stale": false,
     "verify": {
      "compare_source": "Yahoo",
-     "compare_price": 1464.73,
-     "diff_pct": 0.01,
+     "compare_price": 1465.48,
+     "diff_pct": 0.07,
      "flag": false
     },
-    "local_time": "2026-07-24 14:44 KST",
+    "local_time": "2026-07-24 14:59 KST",
     "age_str": "0분 전"
    }
   }
@@ -85,7 +85,7 @@
    "fx_date": "2026-07-23"
   },
   "C": {
-   "premium_pct": 40.72,
+   "premium_pct": 38.69,
    "adr_date": "2026-07-23",
    "common_date": "2026-07-24",
    "fx_date": "2026-07-24"
@@ -1230,6 +1230,10 @@
   [
    "2026-07-24 05:45",
    35.92
+  ],
+  [
+   "2026-07-24 06:00",
+   36.09
   ]
  ],
  "daily": [
@@ -57459,39 +57463,39 @@
   "ratio": 5,
   "live": {
    "adr": {
-    "price": 413.27,
+    "price": 412.3,
     "ccy": "USD",
     "source": "토스증권",
     "session": "장마감",
-    "local_time": "2026-07-24 01:44 ET",
+    "local_time": "2026-07-24 02:00 ET",
     "age_str": "0분 전",
     "stale": false
    },
    "common": {
-    "price": 2355.0,
+    "price": 2350.0,
     "ccy": "TWD",
     "source": "Yahoo Finance",
     "session": "장마감",
-    "local_time": "2026-07-24 13:24 TST",
-    "age_str": "20분 전",
-    "stale": false
+    "local_time": "2026-07-24 13:30 TST",
+    "age_str": "30분 전",
+    "stale": true
    },
    "fx": {
-    "price": 32.345,
+    "price": 32.36,
     "ccy": "TWD",
     "source": "Yahoo Finance",
     "session": "실시간",
-    "local_time": "2026-07-24 06:45 GMT",
+    "local_time": "2026-07-24 07:00 GMT",
     "age_str": "0분 전",
     "stale": false
    }
   },
   "live_premium": {
-   "premium_pct": 13.52,
-   "implied_usd": 364.04,
-   "tsm": 413.27,
-   "tw": 2355.0,
-   "usdtwd": 32.345
+   "premium_pct": 13.55,
+   "implied_usd": 363.1,
+   "tsm": 412.3,
+   "tw": 2350.0,
+   "usdtwd": 32.36
   }
  }
 }
