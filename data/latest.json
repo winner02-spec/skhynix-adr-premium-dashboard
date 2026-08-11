@@ -1,61 +1,61 @@
 {
- "generated": "2026-08-11 09:00",
+ "generated": "2026-08-11 09:15",
  "ratio": 10,
  "current": {
-  "label": "최신 가용 가격 비교 (시간외 포함)",
-  "oldest_age_str": "10분 전",
-  "premium_pct": 38.28,
-  "adr_equivalent_krw": 1920681,
-  "actual_common_krw": 1389000,
-  "adr_implied_krw_price": 1920681,
-  "kr_equivalent_adr_usd": 97.95,
-  "fair_common_from_adr_krw": 1920681,
-  "fair_adr_from_common_usd": 97.95,
+  "label": "한국 장중 기준 (미국장 마감)",
+  "oldest_age_str": "0분 전",
+  "premium_pct": 37.51,
+  "adr_equivalent_krw": 1926459,
+  "actual_common_krw": 1401000,
+  "adr_implied_krw_price": 1926459,
+  "kr_equivalent_adr_usd": 98.76,
+  "fair_common_from_adr_krw": 1926459,
+  "fair_adr_from_common_usd": 98.76,
   "meta": {
    "adr": {
-    "price": 135.45,
-    "kind": "post",
+    "price": 135.8,
+    "kind": "closed",
     "currency": "USD",
     "source": "토스증권",
-    "session": "애프터마켓",
-    "market_state_ko": "애프터마켓",
+    "session": "장마감",
+    "market_state_ko": "장마감",
     "exchange": "NASDAQ",
     "tz": "America/New_York",
-    "data_epoch": 1786406402,
-    "age_sec": 1,
+    "data_epoch": 1786407284,
+    "age_sec": 17,
     "stale": false,
     "verify": {
      "compare_source": "Yahoo",
      "compare_price": 135.29,
-     "diff_pct": 0.12,
+     "diff_pct": 0.38,
      "flag": false
     },
-    "local_time": "2026-08-10 20:00 ET",
+    "local_time": "2026-08-10 20:14 ET",
     "age_str": "0분 전"
    },
    "common": {
-    "price": 1389000.0,
-    "kind": "pre",
+    "price": 1401000.0,
+    "kind": "regular_live",
     "currency": "KRW",
     "source": "토스증권",
-    "session": "장전 시간외",
-    "market_state_ko": "장전 시간외",
+    "session": "정규장",
+    "market_state_ko": "정규장",
     "exchange": "KRX",
     "tz": "Asia/Seoul",
-    "data_epoch": 1786405799,
-    "age_sec": 604,
+    "data_epoch": 1786407301,
+    "age_sec": 0,
     "stale": false,
     "verify": {
      "compare_source": "Yahoo",
      "compare_price": 1420000.0,
-     "diff_pct": 2.18,
+     "diff_pct": 1.34,
      "flag": false
     },
-    "local_time": "2026-08-11 08:49 KST",
-    "age_str": "10분 전"
+    "local_time": "2026-08-11 09:15 KST",
+    "age_str": "0분 전"
    },
    "fx": {
-    "price": 1418.0,
+    "price": 1418.6,
     "kind": "regular_live",
     "currency": "KRW",
     "source": "토스증권(midRate)",
@@ -63,16 +63,16 @@
     "market_state_ko": "실시간",
     "exchange": "USD/KRW",
     "tz": "Asia/Seoul",
-    "data_epoch": 1786406383,
-    "age_sec": 20,
+    "data_epoch": 1786407283,
+    "age_sec": 18,
     "stale": false,
     "verify": {
      "compare_source": "Yahoo",
-     "compare_price": 1417.88,
+     "compare_price": 1418.48,
      "diff_pct": 0.01,
      "flag": false
     },
-    "local_time": "2026-08-11 08:59 KST",
+    "local_time": "2026-08-11 09:14 KST",
     "age_str": "0분 전"
    }
   }
@@ -5516,6 +5516,10 @@
   [
    "2026-08-11 00:00",
    38.28
+  ],
+  [
+   "2026-08-11 00:15",
+   37.51
   ]
  ],
  "daily": [
@@ -61913,12 +61917,12 @@
   "ratio": 5,
   "live": {
    "adr": {
-    "price": 418.79,
+    "price": 420.0,
     "ccy": "USD",
     "source": "토스증권",
-    "session": "애프터마켓",
-    "local_time": "2026-08-10 20:00 ET",
-    "age_str": "0분 전",
+    "session": "장마감",
+    "local_time": "2026-08-10 20:13 ET",
+    "age_str": "1분 전",
     "stale": false
    },
    "common": {
@@ -61927,25 +61931,25 @@
     "source": "Yahoo Finance",
     "session": "장마감",
     "local_time": "2026-08-10 13:30 TST",
-    "age_str": "18시간 30분 전",
+    "age_str": "18시간 45분 전",
     "stale": true
    },
    "fx": {
-    "price": 32.226,
+    "price": 32.22,
     "ccy": "TWD",
     "source": "Yahoo Finance",
     "session": "실시간",
-    "local_time": "2026-08-11 00:41 GMT",
-    "age_str": "18분 전",
+    "local_time": "2026-08-11 01:15 GMT",
+    "age_str": "0분 전",
     "stale": false
    }
   },
   "live_premium": {
-   "premium_pct": 13.41,
-   "implied_usd": 369.27,
-   "tsm": 418.79,
+   "premium_pct": 13.72,
+   "implied_usd": 369.34,
+   "tsm": 420.0,
    "tw": 2380.0,
-   "usdtwd": 32.226
+   "usdtwd": 32.22
   }
  }
 }
