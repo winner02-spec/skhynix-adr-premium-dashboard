@@ -1,19 +1,19 @@
 {
- "generated": "2026-08-19 06:45",
+ "generated": "2026-08-19 07:00",
  "ratio": 10,
  "current": {
   "label": "최신 가용 가격 비교 (시간외 포함) · ⚠️데이터 시차 주의",
-  "oldest_age_str": "10시간 45분 전",
-  "premium_pct": 35.28,
-  "adr_equivalent_krw": 2192831,
+  "oldest_age_str": "11시간 0분 전",
+  "premium_pct": 35.09,
+  "adr_equivalent_krw": 2189862,
   "actual_common_krw": 1621000,
-  "adr_implied_krw_price": 2192831,
+  "adr_implied_krw_price": 2189862,
   "kr_equivalent_adr_usd": 114.64,
-  "fair_common_from_adr_krw": 2192831,
+  "fair_common_from_adr_krw": 2189862,
   "fair_adr_from_common_usd": 114.64,
   "meta": {
    "adr": {
-    "price": 155.08,
+    "price": 154.87,
     "kind": "post",
     "currency": "USD",
     "source": "토스증권",
@@ -21,16 +21,16 @@
     "market_state_ko": "애프터마켓",
     "exchange": "NASDAQ",
     "tz": "America/New_York",
-    "data_epoch": 1787089494,
+    "data_epoch": 1787090393,
     "age_sec": 7,
     "stale": false,
     "verify": {
      "compare_source": "Yahoo",
      "compare_price": 155.62,
-     "diff_pct": 0.35,
+     "diff_pct": 0.48,
      "flag": false
     },
-    "local_time": "2026-08-18 17:44 ET",
+    "local_time": "2026-08-18 17:59 ET",
     "age_str": "0분 전"
    },
    "common": {
@@ -43,7 +43,7 @@
     "exchange": "KRX",
     "tz": "Asia/Seoul",
     "data_epoch": 1787050799,
-    "age_sec": 38702,
+    "age_sec": 39601,
     "stale": true,
     "verify": {
      "compare_source": "Yahoo",
@@ -52,7 +52,7 @@
      "flag": false
     },
     "local_time": "2026-08-18 19:59 KST",
-    "age_str": "10시간 45분 전"
+    "age_str": "11시간 0분 전"
    },
    "fx": {
     "price": 1414.0,
@@ -63,29 +63,29 @@
     "market_state_ko": "실시간",
     "exchange": "USD/KRW",
     "tz": "Asia/Seoul",
-    "data_epoch": 1787089499,
-    "age_sec": 2,
+    "data_epoch": 1787090399,
+    "age_sec": 1,
     "stale": false,
     "verify": {
      "compare_source": "Yahoo",
-     "compare_price": 1412.3,
+     "compare_price": 1412.37,
      "diff_pct": 0.12,
      "flag": false
     },
-    "local_time": "2026-08-19 06:44 KST",
+    "local_time": "2026-08-19 06:59 KST",
     "age_str": "0분 전"
    }
   }
  },
  "bases": {
   "B": {
-   "premium_pct": NaN,
+   "premium_pct": 32.25,
    "adr_date": "2026-08-18",
    "common_date": "2026-08-18",
    "fx_date": "2026-08-18"
   },
   "C": {
-   "premium_pct": NaN,
+   "premium_pct": 45.64,
    "adr_date": "2026-08-17",
    "common_date": "2026-08-18",
    "fx_date": "2026-08-18"
@@ -93,7 +93,7 @@
   "E": {
    "pending": true,
    "adr_date": "2026-08-18",
-   "implied_krw": 2198008
+   "implied_krw": 2197930
   }
  },
  "intraday": [
@@ -7668,6 +7668,10 @@
   [
    "2026-08-18 21:45",
    35.28
+  ],
+  [
+   "2026-08-18 22:00",
+   35.09
   ]
  ],
  "daily": [
@@ -7773,7 +7777,7 @@
   ],
   [
    "2026-08-18",
-   NaN
+   32.25
   ]
  ],
  "tsmc": {
@@ -64132,12 +64136,12 @@
    ],
    [
     "2026-08-18",
-    NaN,
+    10.815,
     0,
     413.41,
-    NaN,
-    31.8503,
-    NaN,
+    2380.0,
+    31.898,
+    373.0641,
     "2026-08-18"
    ]
   ],
@@ -64145,11 +64149,11 @@
   "ratio": 5,
   "live": {
    "adr": {
-    "price": 413.0,
+    "price": 412.86,
     "ccy": "USD",
     "source": "토스증권",
     "session": "애프터마켓",
-    "local_time": "2026-08-18 17:45 ET",
+    "local_time": "2026-08-18 18:00 ET",
     "age_str": "0분 전",
     "stale": false
    },
@@ -64159,25 +64163,25 @@
     "source": "Yahoo Finance",
     "session": "장마감",
     "local_time": "2026-08-18 13:30 TST",
-    "age_str": "16시간 14분 전",
+    "age_str": "16시간 30분 전",
     "stale": true
    },
    "fx": {
-    "price": 31.907,
+    "price": 31.898,
     "ccy": "TWD",
     "source": "Yahoo Finance",
     "session": "실시간",
-    "local_time": "2026-08-18 22:45 GMT",
+    "local_time": "2026-08-18 22:59 GMT",
     "age_str": "0분 전",
     "stale": false
    }
   },
   "live_premium": {
-   "premium_pct": 10.74,
-   "implied_usd": 372.96,
-   "tsm": 413.0,
+   "premium_pct": 10.67,
+   "implied_usd": 373.06,
+   "tsm": 412.86,
    "tw": 2380.0,
-   "usdtwd": 31.907
+   "usdtwd": 31.898
   }
  }
 }
