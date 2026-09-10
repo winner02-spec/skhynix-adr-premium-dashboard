@@ -1,19 +1,19 @@
 {
- "generated": "2026-09-10 19:15",
+ "generated": "2026-09-10 19:30",
  "ratio": 10,
  "current": {
   "label": "최신 가용 가격 비교 (시간외 포함)",
   "oldest_age_str": "0분 전",
-  "premium_pct": 40.03,
-  "adr_equivalent_krw": 2579308,
-  "actual_common_krw": 1842000,
-  "adr_implied_krw_price": 2579308,
-  "kr_equivalent_adr_usd": 136.99,
-  "fair_common_from_adr_krw": 2579308,
-  "fair_adr_from_common_usd": 136.99,
+  "premium_pct": 39.4,
+  "adr_equivalent_krw": 2576156,
+  "actual_common_krw": 1848000,
+  "adr_implied_krw_price": 2576156,
+  "kr_equivalent_adr_usd": 137.41,
+  "fair_common_from_adr_krw": 2576156,
+  "fair_adr_from_common_usd": 137.41,
   "meta": {
    "adr": {
-    "price": 191.83,
+    "price": 191.55,
     "kind": "pre",
     "currency": "USD",
     "source": "토스증권",
@@ -21,20 +21,20 @@
     "market_state_ko": "프리마켓",
     "exchange": "NASDAQ",
     "tz": "America/New_York",
-    "data_epoch": 1789035285,
-    "age_sec": 15,
+    "data_epoch": 1789036193,
+    "age_sec": 8,
     "stale": false,
     "verify": {
      "compare_source": "Yahoo",
      "compare_price": 198.63,
-     "diff_pct": 3.42,
+     "diff_pct": 3.56,
      "flag": true
     },
-    "local_time": "2026-09-10 06:14 ET",
+    "local_time": "2026-09-10 06:29 ET",
     "age_str": "0분 전"
    },
    "common": {
-    "price": 1842000.0,
+    "price": 1848000.0,
     "kind": "closed",
     "currency": "KRW",
     "source": "토스증권",
@@ -42,20 +42,20 @@
     "market_state_ko": "장마감",
     "exchange": "KRX",
     "tz": "Asia/Seoul",
-    "data_epoch": 1789035301,
+    "data_epoch": 1789036201,
     "age_sec": 0,
     "stale": false,
     "verify": {
      "compare_source": "Yahoo",
      "compare_price": 1853000.0,
-     "diff_pct": 0.59,
+     "diff_pct": 0.27,
      "flag": false
     },
-    "local_time": "2026-09-10 19:15 KST",
+    "local_time": "2026-09-10 19:30 KST",
     "age_str": "0분 전"
    },
    "fx": {
-    "price": 1344.58,
+    "price": 1344.9,
     "kind": "regular_live",
     "currency": "KRW",
     "source": "토스증권(midRate)",
@@ -63,16 +63,16 @@
     "market_state_ko": "실시간",
     "exchange": "USD/KRW",
     "tz": "Asia/Seoul",
-    "data_epoch": 1789035290,
-    "age_sec": 10,
+    "data_epoch": 1789036190,
+    "age_sec": 11,
     "stale": false,
     "verify": {
      "compare_source": "Yahoo",
-     "compare_price": 1342.11,
-     "diff_pct": 0.18,
+     "compare_price": 1342.31,
+     "diff_pct": 0.19,
      "flag": false
     },
-    "local_time": "2026-09-10 19:14 KST",
+    "local_time": "2026-09-10 19:29 KST",
     "age_str": "0분 전"
    }
   }
@@ -13686,6 +13686,10 @@
   [
    "2026-09-10 10:15",
    40.03
+  ],
+  [
+   "2026-09-10 10:30",
+   39.4
   ]
  ],
  "daily": [
@@ -70373,12 +70377,12 @@
   "ratio": 5,
   "live": {
    "adr": {
-    "price": 433.58,
+    "price": 433.5,
     "ccy": "USD",
     "source": "토스증권",
     "session": "프리마켓",
-    "local_time": "2026-09-10 06:14 ET",
-    "age_str": "0분 전",
+    "local_time": "2026-09-10 06:28 ET",
+    "age_str": "1분 전",
     "stale": false
    },
    "common": {
@@ -70387,25 +70391,25 @@
     "source": "Yahoo Finance",
     "session": "장마감",
     "local_time": "2026-09-10 13:30 TST",
-    "age_str": "4시간 44분 전",
+    "age_str": "4시간 59분 전",
     "stale": true
    },
    "fx": {
-    "price": 31.573,
+    "price": 31.572,
     "ccy": "TWD",
     "source": "Yahoo Finance",
     "session": "실시간",
-    "local_time": "2026-09-10 11:15 GMT",
+    "local_time": "2026-09-10 11:29 GMT",
     "age_str": "0분 전",
     "stale": false
    }
   },
   "live_premium": {
-   "premium_pct": 11.75,
-   "implied_usd": 387.99,
-   "tsm": 433.58,
+   "premium_pct": 11.73,
+   "implied_usd": 388.0,
+   "tsm": 433.5,
    "tw": 2450.0,
-   "usdtwd": 31.573
+   "usdtwd": 31.572
   }
  }
 }
