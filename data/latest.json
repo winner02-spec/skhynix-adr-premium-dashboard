@@ -1,61 +1,61 @@
 {
- "generated": "2026-09-23 08:45",
+ "generated": "2026-09-23 23:00",
  "ratio": 10,
  "current": {
-  "label": "최신 가용 가격 비교 (시간외 포함)",
-  "oldest_age_str": "0분 전",
-  "premium_pct": 38.98,
-  "adr_equivalent_krw": 2643452,
-  "actual_common_krw": 1902000,
-  "adr_implied_krw_price": 2643452,
-  "kr_equivalent_adr_usd": 141.14,
-  "fair_common_from_adr_krw": 2643452,
-  "fair_adr_from_common_usd": 141.14,
+  "label": "ADR 장중 기준 (한국장 마감) · ⚠️데이터 시차 주의",
+  "oldest_age_str": "3시간 0분 전",
+  "premium_pct": 40.04,
+  "adr_equivalent_krw": 2608858,
+  "actual_common_krw": 1863000,
+  "adr_implied_krw_price": 2608858,
+  "kr_equivalent_adr_usd": 135.87,
+  "fair_common_from_adr_krw": 2608858,
+  "fair_adr_from_common_usd": 135.87,
   "meta": {
    "adr": {
-    "price": 196.16,
-    "kind": "post",
+    "price": 190.2651,
+    "kind": "regular_live",
     "currency": "USD",
     "source": "토스증권",
-    "session": "애프터마켓",
-    "market_state_ko": "애프터마켓",
+    "session": "정규장",
+    "market_state_ko": "정규장",
     "exchange": "NASDAQ",
     "tz": "America/New_York",
-    "data_epoch": 1790120696,
-    "age_sec": 4,
-    "stale": false,
-    "verify": {
-     "compare_source": "Yahoo",
-     "compare_price": 195.37,
-     "diff_pct": 0.4,
-     "flag": false
-    },
-    "local_time": "2026-09-22 19:44 ET",
-    "age_str": "0분 전"
-   },
-   "common": {
-    "price": 1902000.0,
-    "kind": "pre",
-    "currency": "KRW",
-    "source": "토스증권",
-    "session": "장전 시간외",
-    "market_state_ko": "장전 시간외",
-    "exchange": "KRX",
-    "tz": "Asia/Seoul",
-    "data_epoch": 1790120700,
+    "data_epoch": 1790172004,
     "age_sec": 0,
     "stale": false,
     "verify": {
      "compare_source": "Yahoo",
-     "compare_price": 1840000.0,
-     "diff_pct": 3.37,
-     "flag": true
+     "compare_price": 190.36,
+     "diff_pct": 0.05,
+     "flag": false
     },
-    "local_time": "2026-09-23 08:45 KST",
+    "local_time": "2026-09-23 10:00 ET",
     "age_str": "0분 전"
    },
+   "common": {
+    "price": 1863000.0,
+    "kind": "closed",
+    "currency": "KRW",
+    "source": "토스증권",
+    "session": "장마감",
+    "market_state_ko": "장마감",
+    "exchange": "KRX",
+    "tz": "Asia/Seoul",
+    "data_epoch": 1790161199,
+    "age_sec": 10805,
+    "stale": true,
+    "verify": {
+     "compare_source": "Yahoo",
+     "compare_price": 1862000.0,
+     "diff_pct": 0.05,
+     "flag": false
+    },
+    "local_time": "2026-09-23 19:59 KST",
+    "age_str": "3시간 0분 전"
+   },
    "fx": {
-    "price": 1347.6,
+    "price": 1371.17,
     "kind": "regular_live",
     "currency": "KRW",
     "source": "토스증권(midRate)",
@@ -63,37 +63,37 @@
     "market_state_ko": "실시간",
     "exchange": "USD/KRW",
     "tz": "Asia/Seoul",
-    "data_epoch": 1790120676,
-    "age_sec": 24,
+    "data_epoch": 1790171976,
+    "age_sec": 28,
     "stale": false,
     "verify": {
      "compare_source": "Yahoo",
-     "compare_price": 1354.4,
-     "diff_pct": 0.5,
+     "compare_price": 1367.86,
+     "diff_pct": 0.24,
      "flag": false
     },
-    "local_time": "2026-09-23 08:44 KST",
+    "local_time": "2026-09-23 22:59 KST",
     "age_str": "0분 전"
    }
   }
  },
  "bases": {
   "B": {
-   "premium_pct": 45.86,
-   "adr_date": "2026-09-22",
-   "common_date": "2026-09-22",
-   "fx_date": "2026-09-22"
+   "premium_pct": 39.84,
+   "adr_date": "2026-09-23",
+   "common_date": "2026-09-23",
+   "fx_date": "2026-09-23"
   },
   "C": {
-   "premium_pct": 41.0,
-   "adr_date": "2026-09-21",
-   "common_date": "2026-09-22",
-   "fx_date": "2026-09-22"
+   "premium_pct": NaN,
+   "adr_date": "2026-09-22",
+   "common_date": "2026-09-23",
+   "fx_date": "2026-09-23"
   },
   "E": {
    "pending": true,
-   "adr_date": "2026-09-22",
-   "implied_krw": 2683759
+   "adr_date": "2026-09-23",
+   "implied_krw": 2603858
   }
  },
  "intraday": [
@@ -16820,6 +16820,214 @@
   [
    "2026-09-22 23:45",
    38.98
+  ],
+  [
+   "2026-09-23 00:00",
+   38.99
+  ],
+  [
+   "2026-09-23 00:15",
+   39.93
+  ],
+  [
+   "2026-09-23 00:30",
+   39.75
+  ],
+  [
+   "2026-09-23 00:45",
+   40.06
+  ],
+  [
+   "2026-09-23 01:00",
+   40.19
+  ],
+  [
+   "2026-09-23 01:15",
+   41.67
+  ],
+  [
+   "2026-09-23 01:30",
+   40.01
+  ],
+  [
+   "2026-09-23 01:45",
+   40.57
+  ],
+  [
+   "2026-09-23 02:00",
+   40.59
+  ],
+  [
+   "2026-09-23 02:15",
+   40.76
+  ],
+  [
+   "2026-09-23 02:30",
+   40.51
+  ],
+  [
+   "2026-09-23 02:45",
+   40.44
+  ],
+  [
+   "2026-09-23 03:00",
+   40.51
+  ],
+  [
+   "2026-09-23 03:15",
+   40.16
+  ],
+  [
+   "2026-09-23 03:30",
+   43.25
+  ],
+  [
+   "2026-09-23 03:45",
+   40.2
+  ],
+  [
+   "2026-09-23 04:00",
+   43.58
+  ],
+  [
+   "2026-09-23 04:15",
+   40.39
+  ],
+  [
+   "2026-09-23 04:30",
+   40.52
+  ],
+  [
+   "2026-09-23 04:45",
+   40.36
+  ],
+  [
+   "2026-09-23 05:00",
+   40.36
+  ],
+  [
+   "2026-09-23 05:15",
+   40.42
+  ],
+  [
+   "2026-09-23 05:30",
+   40.45
+  ],
+  [
+   "2026-09-23 05:45",
+   40.32
+  ],
+  [
+   "2026-09-23 06:00",
+   40.33
+  ],
+  [
+   "2026-09-23 06:15",
+   40.36
+  ],
+  [
+   "2026-09-23 06:30",
+   40.55
+  ],
+  [
+   "2026-09-23 08:00",
+   40.7
+  ],
+  [
+   "2026-09-23 08:15",
+   40.4
+  ],
+  [
+   "2026-09-23 08:30",
+   40.62
+  ],
+  [
+   "2026-09-23 08:45",
+   40.39
+  ],
+  [
+   "2026-09-23 09:00",
+   40.06
+  ],
+  [
+   "2026-09-23 09:15",
+   40.36
+  ],
+  [
+   "2026-09-23 09:30",
+   40.2
+  ],
+  [
+   "2026-09-23 09:45",
+   40.15
+  ],
+  [
+   "2026-09-23 10:00",
+   40.36
+  ],
+  [
+   "2026-09-23 10:15",
+   40.43
+  ],
+  [
+   "2026-09-23 10:30",
+   40.3
+  ],
+  [
+   "2026-09-23 10:45",
+   40.49
+  ],
+  [
+   "2026-09-23 11:00",
+   40.64
+  ],
+  [
+   "2026-09-23 11:15",
+   39.76
+  ],
+  [
+   "2026-09-23 11:30",
+   39.52
+  ],
+  [
+   "2026-09-23 11:45",
+   39.44
+  ],
+  [
+   "2026-09-23 12:00",
+   39.52
+  ],
+  [
+   "2026-09-23 12:15",
+   39.57
+  ],
+  [
+   "2026-09-23 12:30",
+   39.9
+  ],
+  [
+   "2026-09-23 12:45",
+   40.08
+  ],
+  [
+   "2026-09-23 13:00",
+   40.11
+  ],
+  [
+   "2026-09-23 13:15",
+   40.2
+  ],
+  [
+   "2026-09-23 13:30",
+   40.53
+  ],
+  [
+   "2026-09-23 13:45",
+   40.37
+  ],
+  [
+   "2026-09-23 14:00",
+   40.04
   ]
  ],
  "daily": [
@@ -17021,12 +17229,16 @@
   ],
   [
    "2026-09-22",
-   45.86
+   NaN
+  ],
+  [
+   "2026-09-23",
+   39.84
   ]
  ],
  "tsmc": {
   "start": "2004-03-24",
-  "excl_count": 111,
+  "excl_count": 112,
   "history": [
    [
     "2004-03-24",
@@ -73619,53 +73831,53 @@
     "2026-09-21"
    ],
    [
-    "2026-09-22",
-    16.632,
-    0,
-    452.0,
-    2460.0,
-    31.7384,
-    387.5432,
-    "2026-09-22"
+    "2026-09-23",
+    NaN,
+    1,
+    448.39,
+    2500.0,
+    NaN,
+    NaN,
+    "2026-09-23"
    ]
   ],
   "fx_source": "Yahoo USD/TWD (일별 종가, 2004~)",
   "ratio": 5,
   "live": {
    "adr": {
-    "price": 450.58,
+    "price": 448.55,
     "ccy": "USD",
     "source": "토스증권",
-    "session": "애프터마켓",
-    "local_time": "2026-09-22 19:44 ET",
+    "session": "정규장",
+    "local_time": "2026-09-23 10:00 ET",
     "age_str": "0분 전",
     "stale": false
    },
    "common": {
-    "price": 2460.0,
+    "price": 2500.0,
     "ccy": "TWD",
     "source": "Yahoo Finance",
     "session": "장마감",
-    "local_time": "2026-09-22 13:30 TST",
-    "age_str": "18시간 14분 전",
+    "local_time": "2026-09-23 13:30 TST",
+    "age_str": "8시간 30분 전",
     "stale": true
    },
    "fx": {
-    "price": 31.679,
+    "price": 31.761,
     "ccy": "TWD",
     "source": "Yahoo Finance",
     "session": "실시간",
-    "local_time": "2026-09-23 00:45 GMT",
+    "local_time": "2026-09-23 15:00 GMT",
     "age_str": "0분 전",
     "stale": false
    }
   },
   "live_premium": {
-   "premium_pct": 16.05,
-   "implied_usd": 388.27,
-   "tsm": 450.58,
-   "tw": 2460.0,
-   "usdtwd": 31.679
+   "premium_pct": 13.97,
+   "implied_usd": 393.56,
+   "tsm": 448.55,
+   "tw": 2500.0,
+   "usdtwd": 31.761
   }
  }
 }
